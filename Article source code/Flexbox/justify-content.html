@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify Content in flex</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid black;
+            border-radius: 5px;
+            height: 500px;
+/* justify-content has below mentioned values */
+            justify-content: flex-start;
+            /* justify-content: center; */
+            /* justify-content: flex-end; */
+            /* justify-content: start; */
+            /* justify-content: end; */
+            /* justify-content: left; */
+            /* justify-content: right; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+            }
+        .container>div {
+            background-color: #23C4ED;
+            border: 2px solid red;
+            margin: 5px;
+            line-height: 50px;
+            padding: 5px;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div>BOX-1</div>
+        <div>BOX-2</div>
+        <div>BOX-3</div>
+        <div>BOX-4</div>
+        <div>BOX-5</div>
+        <div>BOX-6</div>
+        <div>BOX-7</div>
+    </section>
+</body>
+</html>

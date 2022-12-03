@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Grow in flex-box</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid black;
+            border-radius: 5px;
+            }
+        .container>div {
+            background-color: #23C4ED;
+            border: 2px solid red;
+            margin: 5px;
+            line-height: 50px;
+            padding: 5px;
+            width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        
+        <div>BOX-1</div>
+        <div>BOX-2</div>
+        <div>BOX-3</div>
+        <!-- flex-shrink is flex element property -->
+        <div style="flex-shrink: 3;">BOX-4</div>
+        <div>BOX-5</div>
+        <div>BOX-6</div>
+        <!-- flex-shrink is flex element property -->
+        <div style="flex-shrink: 4;">BOX-7</div>
+        <div>BOX-8</div>
+        
+        <div>BOX-9</div>
+        <div>BOX-10</div>
+    </section>
+</body>
+</html>

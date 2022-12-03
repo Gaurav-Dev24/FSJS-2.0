@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Attribute Selector</title>
+    <style>
+      /* Attribute Selector */
+
+      a[href] {
+        color: #120e43;
+      }
+
+      a[target="_blank"] {
+        background-color: yellow;
+      }
+      /*
+    [title~="flower"] {
+    border: 5px solid yellow;
+    }
+    
+    [class|="top"] {
+    background: yellow;
+    }
+
+    [class^="top"] {
+    background: yellow;
+    }
+
+    [class$="test"] {
+    background: yellow;
+    }
+
+    [class*="te"] {
+    background: yellow;
+    } */
+    </style>
+  </head>
+  <body>
+    <h1>This is Heading</h1>
+    <p>
+      Attribute Selector
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"
+      >
+        More about attribute selectors
+      </a>
+      <a href="http://google.com" target="_blank">Google</a>
+    </p>
+  </body>
+</html>

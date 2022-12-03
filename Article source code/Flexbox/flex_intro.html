@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flex-Box</title>
+    <style>
+        /* Here we are using flex-box as section is the parent of all the elements such as article, Header etc */
+
+        section{
+            /* Flex container */
+            display: flex;
+            border: 2px solid grey;
+        }
+        article{
+            /* Flex items */
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 3px;
+            padding: 3px;
+        }
+        header{
+            border: 3px solid red;
+            background-color: rgb(130, 26, 179);
+            text-align: center;
+            font-size: 50px;
+            margin: 5px;
+        }
+        .item{
+            background-color: rgb(42, 208, 214);
+            /* flex: 200px; this will help to flex the items as per user requirement */
+        }
+        p{
+            text-align: justify;
+
+        }
+        h1{
+            text-align: center;
+            color: rgb(194, 10, 10);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Sample for Flexbox
+    </header>
+    <section>
+        <article class="item">
+            <h1>HTML</h1>
+            <p>HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between web pages. A markup language is used to define the text document within the tag which defines the structure of web pages. This language is used to annotate (make notes for the computer) text so that a machine can understand it and manipulate text accordingly. Most markup languages (e.g. HTML) are human-readable. The language uses tags to define what manipulation has to be done on the text. </p>
+        </article>
+        <article class="item">
+            <h1>CSS</h1>
+            <p>Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independent of the HTML that makes up each web page. It describes how a webpage should look: it prescribes colors, fonts, spacing, and much more. In short, you can make your website look however you want. CSS lets developers and designers define how it behaves, including how elements are positioned in the browser.
+
+                While html uses tags, css uses rulesets. CSS is easy to learn and understand, but it provides powerful control over the presentation of an HTML document.</p>
+        </article>
+        <article class="item">
+            <h1>Javascript</h1>
+            <p>JavaScript is a lightweight, cross-platform, and interpreted compiled programming language which is also known as the scripting language for webpages. It is well-known for the development of web pages, many non-browser environments also use it. JavaScript can be used for Client-side developments as well as Server-side developments. Javascript is both imperative and declarative type of language. JavaScript contains a standard library of objects, like Array, Date, and Math, and a core set of language elements like operators, control structures, and statements. </p>
+        </article>
+    </section>
+</body>
+</html>

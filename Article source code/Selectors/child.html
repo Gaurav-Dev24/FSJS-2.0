@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Child Selector</title>
+    <style>
+    /* Child Selectors */
+        div > ul > li{
+            color:#6A1B4D ;
+            font-size: 10px;
+            background-color: #FF6263;
+            margin: 2px;
+            width: 30px;
+        }
+
+        section > ol > li{
+            color: #120E43;
+            font-size: 10px;
+            background-color: #E5D68A;
+            margin: 2px;
+            width: 60px; 
+        }
+    </style>
+</head>
+<body>
+    <h3>Child Selector</h3>
+    <div>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+    <section>
+        <ol>
+            <li>JAVASCRIPT</li>
+            <li>REACT.JS</li>
+        </ol>
+    </section>
+</body>
+</html>

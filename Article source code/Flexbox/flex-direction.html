@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Container Properties</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid blue;
+            height: 500px;
+            width: 1000px;
+        
+            /* Flex-direction */
+            /* flex-diection has below mentioned four values
+
+            /* flex-direction: row; (Default value) */
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            flex-direction: column-reverse;
+        }
+
+        .container>div {
+            background-color: #50DBB4;
+            border: 2px solid black;
+            border-radius: 5px;
+            /* height: 100px; remove height for stretch */
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            text-align: center;
+            line-height: 95px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div>BOX-1</div>
+        <div>BOX-2</div>
+        <div>BOX-3</div>
+        <div>BOX-4</div>
+    </section>
+
+    <!-- For baseline in align-items -->
+    <!-- <section class="flex-container">
+        <div><h1>1</h1> </div>
+        <div><h3>3</h3> </div>
+        <div><h6>6</h6> </div>
+    </section> -->
+    
+</body>
+</html>

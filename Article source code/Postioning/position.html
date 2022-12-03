@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Positions</title>
+    <style>
+        .position{
+            display: flex;
+            border: 3px solid black;
+            border-radius: 5px;
+            height: 1000px;
+            
+        }
+        .box-1{
+            /* Here we use postion as "static", hence there will not be any changes in the web-page */
+            /* position: static; */
+            border: 2px solid black;
+            background-color: rgb(18, 131, 61);
+            line-height: 90px;
+            text-align: center;
+            font-size: 30px;
+            height: 100px;
+            width: 100px;
+            margin: 3px;
+        }
+        .box-2{
+            /* Here we use postion as "absolute", hence there will be top,right,bottom and left which is given */
+            /* position: absolute;
+            top : 50px;
+            right: 20px;
+            bottom: 50px;
+            left: 20px; */
+
+            border: 2px solid black;
+            background-color: rgb(19, 121, 161);
+            line-height: 90px;
+            font-size: 30px;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+            margin: 3px;
+        }
+        .box-3{
+            /* Here we use postion as "relative", hence there will be top,right,bottom and left which is given */
+            /* position: relative;
+            top: 40px ;
+            right: 60px;
+            bottom: 50px ;
+            left:90px ; */
+
+            border: 2px solid black;
+            background-color: rgb(187, 176, 20);
+            line-height: 90px;
+            font-size: 30px;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+            margin: 3px;
+        }
+        .box-4{
+            /* Here we use postion as "sticky", hence there will be top,right,bottom and left which is given */
+            position: sticky;
+            top: 60px;
+            right: 70px;
+            bottom: 80px;
+            left: 30px ;
+
+            border: 2px solid black;
+            background-color: rgb(110, 9, 42);
+            line-height: 90px;
+            font-size: 30px;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+            margin: 3px;
+        }
+        .box-5{
+            /* Here we use postion as "fixed", hence there will be top,right,bottom and left which is given */
+            position: fixed;
+            top: 100px;
+            bottom: 20px;
+            right: 50px;
+            left: 60px;
+
+            border: 2px solid black;
+            background-color: rgb(121, 86, 219);
+            line-height: 90px;
+            font-size: 30px;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+    <section class="position">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+        <div class="box-4">4</div>
+        <div class="box-5">5</div>
+    </section>
+</body>
+</html>

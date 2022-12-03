@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Self in flex-box</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid black;
+            border-radius: 5px;
+            height: 600px;
+            }
+        .container>div {
+            background-color: #23C4ED;
+            border: 2px solid red;
+            margin: 5px;
+            line-height: 50px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <!-- Align-self is flex element property -->
+        <div style="align-self: center;">BOX-1</div>
+        <div>BOX-2</div>
+        <!-- Align-self is flex element property -->
+        <div style="align-self: flex-start;">BOX-3</div>
+        <div style="align-self: flex-end;">BOX-4</div>
+        <div>BOX-5</div>
+        <div>BOX-6</div>
+        <!-- Align-self is flex element property -->
+        <div style="align-self: baseline;">BOX-7</div>
+        <div>BOX-8</div>
+        <!-- Align-self is flex element property -->
+        <div style="align-self: stretch ;">BOX-9</div>
+        <div>BOX-10</div>
+    </section>
+</body>
+</html>

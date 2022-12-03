@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Media Query</title>
+    <style>
+      /* Any hover  */
+      @media (any-hover: hover) {
+        a:hover {
+          background-color: rgb(206, 226, 93);
+        }
+      }
+
+      /* Any pointer */
+      input[type="checkbox"]:checked {
+        background: rgb(74, 139, 177);
+      }
+
+      @media (any-pointer: fine) {
+        input[type="checkbox"] {
+          appearance: none;
+          width: 15px;
+          height: 15px;
+          border: 1px solid rgb(3, 3, 7);
+          border-radius: 5px;
+        }
+      }
+      @media (any-pointer: coarse) {
+        input[type="checkbox"] {
+          appearance: none;
+          width: 30px;
+          height: 30px;
+          border: 2px solid red;
+          border-radius: 5px;
+        }
+      }
+
+      /* Minimum aspect ratio */
+      @media (min-aspect-ratio: 8/5) {
+        div {
+          background: #9af; /* blue */
+        }
+      }
+
+      /* Maximum aspect ratio */
+      @media (max-aspect-ratio: 3/2) {
+        div {
+          background: #9ff; /* cyan */
+        }
+      }
+
+      /* Exact aspect ratio, put it at the bottom to avoid override*/
+      @media (aspect-ratio: 1/1) {
+        div {
+          background: #f9a; /* red */
+        }
+      }
+
+      p {
+        color: black;
+      }
+
+      /* Any color device */
+      @media (color) {
+        p {
+          color: red;
+        }
+      }
+
+      /* Any color device with at least 8 bits per color component */
+      @media (min-color: 8) {
+        p {
+          color: #24ba13;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="#">Welcome to media query</a><br />
+
+      <input id="test" type="checkbox" />
+      <label for="test">Look at me!</label>
+    </div>
+
+    <div id="inner">
+      Watch this element as you resize your viewport's width and height.
+    </div>
+    <p>
+      This text should be black on non-color devices, red on devices with a low
+      number of colors, and greenish on devices with a high number of colors.
+    </p>
+  </body>
+</html>

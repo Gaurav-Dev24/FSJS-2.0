@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Combinators</title>
+    <style>
+        /* Descendent selector selects element which is descendent ("<p>") to the first element ("<div>")*/
+        div h1 {
+                background-color:#C7C11A ; 
+                color: #1C8D73;              
+        }
+        /* Descendent selector selects element which is descendent ("<p>") to the first element ("<div>")*/
+        section p {
+            background-color: #1C8D73;
+            color: #C7C11A;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>1. Descendent Selectors</h1>
+        <p>This is Simple Paragraph 1</p>
+        <section>
+            <p>This is Simple Paragraph 2</p>
+        </section>
+    </div>
+</body>
+</html>

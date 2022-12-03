@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-Grow in flex-box</title>
+    <style>
+      .container {
+        display: flex;
+        border: 2px solid black;
+        border-radius: 5px;
+        /* Gap is the flex container property */
+        /* gap: 10px 20px; */
+        /* gap: 10px 20%; */
+        /* gap: 1em 0.5em; */
+        /* gap: 3vmin 2vmax; */
+        gap: 3cm 10mm;
+        
+      }
+      .container > div {
+        background-color: #23c4ed;
+        border: 2px solid red;
+        margin: 5px;
+        line-height: 50px;
+        padding: 5px;
+        height: 100px;
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div>BOX-1</div>
+      <div>BOX-2</div>
+      <div>BOX-3</div>
+      <div>BOX-4</div>
+    </section>
+  </body>
+</html>
