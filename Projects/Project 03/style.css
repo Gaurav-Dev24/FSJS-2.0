@@ -1,0 +1,143 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Poppins';
+    font-display: swap;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
+.list{
+    display: flex;
+}
+.list-item:first-child{
+    font-weight: 600;
+}
+.list-item{
+    list-style-type: none;
+    margin: 25px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.button-group{
+    display: flex;
+}
+.search-icon{
+    margin: 5px 15px 0 0;
+}
+.nav-button{
+    height: 40px;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #726d6d;
+}
+.hero-container{
+    display: flex;
+    margin: 0 20%;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    top: 90px;
+    right: 100px;
+}
+.hero-heading{
+    font-size: 64px;
+    font-weight: 600;
+    width: 50rem;
+    height: 2rem;
+    margin: 10px 0;
+    text-align: center;
+}
+.hero-description{
+    font-size: 15px;
+    text-align: center;
+    margin: 50px 0;
+    padding: 10px;
+    height: 64px;
+    width: 653px;
+    color: #808080;
+}
+.button-email{
+    font-family: 'Poppins';
+    color: #726d6d;
+    margin: 5% 0;
+    height: 30px;
+    width: 130px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+.button-join{
+    font-family: 'Poppins';
+    background-color: black;
+    color: #fff;
+    height: 30px;
+    width: 130px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin: 10px;
+}
+.contact-heading{
+    text-align: center;
+    margin-top: 25%;
+}
+/* Favicons */
+.icons{
+    margin: 8px;
+}
+/* Star */
+.star1{
+    position: absolute;
+    top: 155px;
+    right: 90px;
+}
+.star1 > img{
+    width: 50px;
+}
+.star2 > img{
+    width: 40px;
+}
+.star2{
+    position: absolute;
+    bottom: 35px;
+    left: 550px;
+}
+/* Globe */
+.globe{
+    position: relative;
+    left: 200px;
+    top : 10px
+}
+.globe > img{
+    width: 50px;
+}
+/* Square */
+img[src="/assets/squares.png"]{
+    position: relative;
+    top: 12.5rem;
+    right: 5.7rem;
+    height: 50vh;
+    width: 22vw;
+}
+/* Image */
+img[src="/assets/Image.png"] {
+    position: absolute;
+    top: 8rem;
+    left: 4.5rem;
+    height: 70vh;
+    width: 25.5vw;
+}

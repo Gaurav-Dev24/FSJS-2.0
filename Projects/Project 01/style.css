@@ -1,0 +1,70 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-container{
+    display: flex;
+}
+.list{
+    display: flex;
+    list-style: none;
+}
+.list-item{
+    margin: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #808080;
+}
+.button-group{
+    display: flex;
+    margin:  0 15%;
+}
+li:first-child{
+    color: black;
+}
+.nav-button{
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 42px;
+    width: 140px;
+    background-color: rgb(126, 126, 228);
+    color: white;
+    margin-top: 20px;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+img[src="./assets/Header Illustration.png"]{
+    width: 55rem;
+    height: 32rem;
+    position: relative;
+    left: 4rem;
+    top: 2rem;
+
+}
+.heading-text{
+    font-size: 40px;
+    width: 18rem;
+}
+span{
+    color:rgb(126, 126, 228);
+}
+.description{
+    color: #808080;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.btn{
+    margin: 40px 0;
+}
