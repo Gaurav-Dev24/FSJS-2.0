@@ -1,3 +1,3 @@
 # Project 5
 Output -
-![Project Image](output.png)
+![Project Image](./output.png)
