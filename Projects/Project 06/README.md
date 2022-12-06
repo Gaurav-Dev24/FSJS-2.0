@@ -1,3 +1,3 @@
 # Project 6
 Output -
-![Project Image]()
+![Project Image](./assets/Output.png)
