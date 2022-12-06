@@ -8,7 +8,9 @@
     color: #fff;
 }
 body{
-    background-color: rgb(50, 199, 44);
+    z-index: -1;
+    background-image: url("./assets/bg.png");
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar{
     display: flex;
