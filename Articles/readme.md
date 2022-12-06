@@ -16,10 +16,10 @@
     * [source code](https://github.com/Gaurav-Dev24/FSJS-2.0/tree/main/Article%20source%20code/media_query.html)
 6. Article on CSS Box Model
 [Click Here](https://medium.com/@subhamkr1995dob/article-on-css-box-model-5b101af1532e)
-    * [source code]()
+    * [source code](https://github.com/Gaurav-Dev24/FSJS-2.0/commit/3edb7158f542dfe37e9ef06a823a1e53a52500b0)
 7. Article on Audio Tag in Html
 [Click Here](https://medium.com/@subhamkr1995dob/article-on-audio-tag-in-html-86b56d73f918)
-    * [source code]()
+    * [source code](https://github.com/Gaurav-Dev24/FSJS-2.0/tree/main/sourceCode/Audio%20tags)
 8. Article on Video Tag in Html
 [Click Here](https://medium.com/@subhamkr1995dob/article-on-video-tags-in-html-1f576cfd1ad1)
-    * [source code]()
+    * [source code](https://github.com/Gaurav-Dev24/FSJS-2.0/tree/main/sourceCode/Video%20Tags)
