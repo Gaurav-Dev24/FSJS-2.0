@@ -14,3 +14,12 @@
 5. Article on CSS media query
 [Click Here](https://medium.com/@subhamkr1995dob/article-on-css-media-query-9c2108a0c3eb)
     * [source code](https://github.com/Gaurav-Dev24/FSJS-2.0/tree/main/Article%20source%20code/media_query.html)
+6. Article on CSS Box Model
+[Click Here](https://medium.com/@subhamkr1995dob/article-on-css-box-model-5b101af1532e)
+    * [source code]()
+7. Article on Audio Tag in Html
+[Click Here](https://medium.com/@subhamkr1995dob/article-on-audio-tag-in-html-86b56d73f918)
+    * [source code]()
+8. Article on Video Tag in Html
+[Click Here](https://medium.com/@subhamkr1995dob/article-on-video-tags-in-html-1f576cfd1ad1)
+    * [source code]()
