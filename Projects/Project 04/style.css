@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Search */
+    background: #f9f5ed;
+  }
+  body {
+    font-family: "Ubuntu", sans-serif;
+  }
+  nav {
+    padding: 10px 10%;
+    height: 10vh;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    /* gap: 50px; */
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  /* CSS for HERO Section */
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+  }
+  .leftmain {
+    width: 40%;
+    position: relative;
+    top: 70px;
+    right: 130px;
+  }
+  .rightmain {
+    width: 33%;
+    position: relative;
+    top: 50px;
+  }
+  .leftmain h1 {
+    font-size: 40px;
+    width: 265px;
+  }
+  .leftmain p {
+    margin: 5% 0;
+  }
+  .leftmain button {
+    padding: 15px 20px;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+  }
+  img[alt="Image 1"] {
+    width: 200px;
+    padding: 10px;
+  }
+  img[alt="Image 2"] {
+    width: 200px;
+    padding: 10px;
+  }
+  img[alt="Image 3"] {
+    width: 400px;
+    padding: 5px;
+  }
+  
