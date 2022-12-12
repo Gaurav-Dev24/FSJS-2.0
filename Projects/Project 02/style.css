@@ -10,6 +10,9 @@
 body{
     z-index: -1;
     background-image: url("./assets/bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar{
@@ -17,7 +20,7 @@ body{
     align-items: center;
     justify-content: space-around;
     background-color: black;
-    padding: 20px;
+    padding: 10px;
 }
 .line{
     font-size: 50px;
