@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Project 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class=" grid grid-cols-3 gap-8 p-2 font-['Ubuntu', sans-serif] bg-amber-50 drop-shadow-md ">
+        <div class=" ml-8 flex item-center justify-center shrink w-52 ">
+            <img src="./assets/Logo.png" alt="Logo">
+        </div>
+        <div class=" flex item-center justify-center grow w-[35rem] relative right-56">
+            <ul class=" grid grid-cols-5 gap-8 mt-4 text-xl font-semibold cursor-pointer">
+                <li class=" hover:text-purple-900 ">Home</li>
+                <li class=" hover:text-purple-900 ">About</li>
+                <li class=" hover:text-purple-900 ">Services</li>
+                <li class=" hover:text-purple-900 ">Portfolio</li>
+                <li class=" hover:text-purple-900 ">Pricing</li>
+            </ul>
+        </div>
+        <div class=" flex item-center justify-center shrink w-48 relative left-28  ">
+            <button class="w-40 h-12 border-none rounded-lg bg-sky-800 text-white hover:bg-purple-900">Contact Us</button>
+        </div>
+    </nav>
+</body>
+</html>
