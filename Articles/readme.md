@@ -22,3 +22,6 @@
 
 8. ### Article on Video Tag in Html [Click Here](https://medium.com/@subhamkr1995dob/article-on-video-tags-in-html-1f576cfd1ad1)
     * [source code](https://github.com/Gaurav-Dev24/FSJS-2.0/tree/main/sourceCode/Video%20Tags)
+
+9. ### Article on Array Methods in Javascript [Click Here](https://medium.com/@subhamkr1995dob/article-on-javascript-arrays-and-its-methods-36b2e506cba7)
+    * [source code]()
