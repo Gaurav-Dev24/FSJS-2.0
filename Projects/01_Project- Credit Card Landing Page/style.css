@@ -1,0 +1,492 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+/* All anchor tags */
+a{
+    text-decoration: none;
+    color: #ffff;
+    cursor: pointer;
+}
+/* *******************Navbar******************** */
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    background-color: rgb(28 25 23);
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    padding: 5px;
+}
+.logo{
+    margin-left: 100px;
+    padding: 5px;
+    height: 3.5rem;
+    width: 10rem;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    list-style: none;
+    flex-grow: 2;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 15rem;
+    margin-left: 13rem;
+}
+.eng{
+    position: relative;
+    left: 30px;
+    bottom: 3px;
+    height: 20px;
+    width: 30px;
+}
+.pink-nav{
+    height: 28px;
+    width: 50px;
+}
+.btn-contact{
+    position: relative;
+    bottom: 2px;
+    right: 70px;
+    color: #ffff;
+    width: 80px;
+    height: 18px;
+}
+
+/* Section 1 */
+/* ****************** Hero Section ************** */
+.hero-section{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    background-color: rgb(28 25 23);
+    overflow: hidden;
+}
+/* left-main */
+.left-main{
+    color: #ffff;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.heading-text{
+    width: 57rem;
+    font-size: 55px;
+    font-weight: 300;
+}
+.para-text{
+    margin: 5rem 0;
+    font-size: 22px;
+    color: rgba(185, 175, 175, 0.932);
+}
+/* Left main anchor */
+.left-main-anchor{
+    display: flex;
+    margin-top: 6rem ;
+}
+.get-started{
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    right: 34px;
+}
+.right-arrow{
+    position: relative;
+    top: 7px;
+    right: 30px;
+}
+.viewer-subscribers{
+    display: flex;
+    margin-top: 5rem;
+}
+/* User */
+.user{
+    display: flex;
+}
+.user>h1{
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+}
+.user>span {
+    position: relative;
+    top: 10px;
+    color: rgba(185, 175, 175, 0.932);
+    margin-left: 10px;
+    font-size: 20px;
+    width: 110px;
+}
+/* Vector */
+.vector{
+    margin: 0 40px;
+}
+/* Experience */
+.experience{
+    display: flex;
+}
+.experience>h1{
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+}
+.experience>span{
+    position: relative;
+    top: 10px;
+    color: rgba(185, 175, 175, 0.932);
+    margin-left: 10px;
+    font-size: 20px;
+    width: 30px;
+}
+/* Right Section */
+.front-image{
+    position: relative;
+    top: 0.5rem;
+    right: 3rem;
+    z-index: 1;
+    opacity: 1;
+}
+.back-image{
+    position: absolute;
+    top: 2px;
+    left: 26rem;
+    z-index: 0.5;
+    opacity: 0.5;
+}
+
+/* **************Section 2********************* */
+.logo-section{
+    display: flex;
+    background-color: rgb(65, 58, 54);
+    align-items: center;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+
+/* ****************Section 3********************* */
+.section-three{
+    /* margin: auto; */
+    background-color: rgb(28 25 23);
+}
+/* Top Division */
+#top-div{
+    display: flex;
+    margin: 0 100px;
+    padding: 50px 0;
+}
+.section-three-heading{
+    width: 80rem;
+    font-size: 40px;
+    font-weight: 100;
+    color: #ffff;
+}
+.section-three-para{
+    text-align: center;
+    width: 50rem;
+    margin: 4rem 30px;
+    font-size: 22px;
+    color: rgba(185, 175, 175, 0.932);
+}
+
+/* Bottom Division */
+#bottom-div{
+    display: flex;
+    margin: 10px 100px;
+    padding: 50px 0;
+}
+.dollar-svg{
+    background-color:rgba(46, 45, 45, 0.932);
+    width: 350px;
+    height: 300px;
+    border-left: 1px solid rgba(255, 255, 255, 0.37);
+    
+}
+img[alt="dollar"]{
+    margin:2.5rem 5rem;
+}
+.cloud-svg{
+    background-color:rgba(121, 113, 113, 0.644);
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: 2.5rem;
+    bottom: 3rem;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgba(255, 255, 255, 0.24);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.356);
+}
+img[alt="cloud"]{
+    margin:3.0rem 6rem;
+}
+.lock-svg{
+    background-color:rgba(46, 45, 45, 0.932);
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: 5rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.37);
+    border-right: 1px solid rgba(255, 255, 255, 0.158);
+}
+img[alt="lock"]{
+    margin:2.5rem 6rem;
+}
+.dollar-svg > p{
+    font-size: 25px;
+    color: rgb(238, 232, 232);
+    position: relative;
+    left: 3rem;
+    bottom: 2rem;
+}
+.cloud-svg > p{
+    text-align: center;
+    width: 280px;
+    height: 100px;
+    padding: 0 5px;
+    font-size: 25px;
+    color: rgb(238, 232, 232);
+    position: relative;
+    left: 3rem;
+    bottom: 2.8rem;
+}
+.lock-svg > p{
+    position: relative;
+    left: 4rem;
+    bottom: 2rem;
+    font-size: 25px;
+    color: rgb(238, 232, 232);
+}
+
+/* ****************Section 4******************* */
+.section-four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 231, 238);
+}
+.section-four-heading{
+    text-align: center;
+    font-weight: 100;
+    width: 700px;
+    height: 100px;
+    font-size: 40px;
+    margin-top: 5rem;
+}
+.section-four-para{
+    text-align: center;
+    margin-top: 6rem;
+    padding: 10px;
+    width: 510px;  
+    height: 100px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #312f2f81;
+}
+.vertical-card{
+    width: 80%;
+    position: relative;
+    right: 3rem;
+    bottom: 5rem;
+}
+
+/* *******************Section 5****************** */
+
+.section-five{
+    background-color: rgb(28 25 23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section-five-heading{
+    text-align: center;
+    font-weight: 100;
+    width: 800px;
+    height: 100px;
+    font-size: 40px;
+    margin-top: 3rem;
+    color: #ffff;
+}
+.section-five-para{
+    text-align: center;
+    margin-top: 6rem;
+    padding: 10px;
+    width: 510px;  
+    height: 80px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #a39a9a;
+}
+.rating-top{
+    display: flex;
+    margin: 50px 0;
+}
+.melvin{
+    padding: 20px;
+    color: #cac2c2;
+    background-color: rgba(121, 113, 113, 0.644);
+    height: 230px;
+    width: 420px;
+    border-left: 2px solid rgba(255, 255, 255, 0.623);
+    border-top: 2px solid rgba(255, 255, 255, 0.418);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.418);
+    border-right: 1px solid rgba(255, 255, 255, 0.418);
+    position: relative;
+    right: 50px;
+}
+.melvin>p {
+    margin: 20px 10px;
+}
+.melvin>span {
+    margin: 20px 10px;
+}
+.gabriel{
+    padding: 20px;
+    color: #cac2c2;
+    background-color:rgba(46, 45, 45, 0.932);
+    height: 230px;
+    width: 420px;
+    border-top: 1px solid rgba(255, 255, 255, 0.336);
+    border-left: 1px solid rgba(255, 255, 255, 0.623);
+    border-right: 1px solid rgba(255, 255, 255, 0.418);
+    position: relative;
+    left: 20px;
+    
+}
+.gabriel>p {
+    margin: 20px 10px;
+}
+.gabriel>span {
+    margin: 20px 10px;
+}
+.rating-bottom{
+    display: flex;
+    margin: 50px 0;
+}
+.farhan{
+    padding: 20px;
+    color: #cac2c2;
+    background-color:rgba(46, 45, 45, 0.932);
+    height: 230px;
+    width: 420px;
+    border-top: 1px solid rgba(255, 255, 255, 0.336);
+    border-left: 1px solid rgba(255, 255, 255, 0.623);
+    border-right: 1px solid rgba(255, 255, 255, 0.418);
+    position: relative;
+    right: 50px;
+}
+.farhan>p {
+    margin: 20px 10px;
+}
+.farhan>span {
+    margin: 20px 10px;
+}
+.alex{
+    padding: 20px;
+    color: #cac2c2;
+    background-color:rgba(46, 45, 45, 0.932);
+    height: 230px;
+    width: 420px;
+    border-top: 1px solid rgba(255, 255, 255, 0.336);
+    border-left: 1px solid rgba(255, 255, 255, 0.623);
+    border-right: 1px solid rgba(255, 255, 255, 0.418);
+    position: relative;
+    left: 20px;
+}
+.alex > p {
+    margin: 20px 10px;
+}
+.alex > span {
+    margin: 20px 10px;
+}
+
+/* ******************Section 6****************** */
+
+.section-six{
+    background-color: rgb(28 25 23);
+    overflow: hidden; 
+}
+.rectangle-one{
+    position: relative;
+    top: 10rem;
+}
+.rectangle-two{
+    position: relative;
+    bottom: 24.4rem;
+}
+.diamonds{
+    display: flex;
+}
+.diamond-left{
+    position: relative;
+    bottom: 60rem;   
+}
+.diamond-right{
+    position: relative;
+    left: 20rem;
+    bottom: 56rem;
+}
+.section-six-heading{
+    text-align: center;
+    color: #ffff;
+    font-size: 40px;
+    width: 50rem;
+    position: relative;
+    left: 20rem;
+    bottom: 80rem;
+}
+.section-six-pink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 76.5rem;
+    left: 2.5rem;
+
+}
+.pink-btn{
+    position: relative;
+    left: 28px;
+}
+.section-six-get{
+    position: relative;
+    bottom: 3px;
+    left: 5px;
+    font-weight: 600;
+}
+.section-six-arrow{
+    position: relative;
+    left: 12px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 60rem;
+}
+.last-logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: #ffff;
+}
+.items{
+    margin: 25px;
+    font-weight: 600;
+}
+.last-logo{
+    position: relative;
+    right: 15rem;
+}
