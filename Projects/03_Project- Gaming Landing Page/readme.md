@@ -1,2 +1,2 @@
-# Project Site Hosting Landing Page
+# Project Gaming Landing Page
 [Click Here](https://devgamelandingpage.netlify.app/)
