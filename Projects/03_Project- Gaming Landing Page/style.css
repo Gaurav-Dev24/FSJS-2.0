@@ -1,0 +1,709 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+.section-one{
+    background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/futuristic-bg.png');
+    color: rgb(240, 234, 234);
+    overflow: hidden;
+}
+
+/**************** Navbar********** */
+.navbar{
+    display: flex;
+    padding: 30px 25px;
+}
+.logo{
+    margin: 0 75px;
+}
+.list{
+    display: flex;
+    padding: 10px 0;
+    list-style-type: none;
+}
+.list-items{
+    font-size: 17px;
+    margin: 0 20px;
+}
+.nav-button{
+    position: relative;
+    left: 18rem;
+}
+.sign-in{
+    font-size: 15px;
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    color: rgb(240, 234, 234);
+    background-color: rgb(22, 22, 22, 0.2);
+}
+.sign-up{
+    font-size: 15px;
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    color: rgb(240, 234, 234);
+    background-color: #BF3312;
+}
+
+/* **************** Main Section **************** */
+.main-section{
+    display: flex;
+    padding: 50px 0;
+}
+/* *************Left Main Div **************** */
+.left-main{
+    width: 60%;
+    padding-left: 94px;
+    padding-top: 50px;
+}
+.left-main-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+.left-main-para{
+    font-size: 18px;
+    width: 85%;
+}
+.left-main-buttons{
+    padding: 30px 0;
+}
+.get-started-button{
+    font-size: 15px;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    color: rgb(240, 234, 234);
+    background-color: #BF3312;
+    margin-right: 20px;
+}
+.learn-more-button{
+    font-size: 15px;
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid rgb(240, 234, 234);
+    color: rgb(240, 234, 234);
+    background-color: rgb(22, 22, 22, 0.2);
+}
+
+/* *************Right Main Div **************** */
+.right-main{
+    padding: 0 80px;
+}
+.right-main-play{
+    position: relative;
+    top: 12rem;
+    left: 15rem;
+}
+.right-main-div{
+    display: flex;
+    width: 75%;
+    position: relative;
+    top: 17.5rem;
+    left: 7rem;
+}
+.right-main-heading{
+    font-size: 25px;
+}
+.right-main-dash{
+    padding-right: 20px;
+}
+.right-main-arrow{
+    position: relative;
+    top: 5rem;
+}
+
+/* ************Section 2 ************ */
+
+/* Section 2 top */
+.section-two{
+    padding: 5rem 0;
+}
+.section-two-heading{
+    margin-left: 16rem;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    width: 70%;
+    padding: 2rem 0;
+}
+
+/* Section 2 bottom */
+.section-two-games{
+    display: flex;
+}
+/* Solider div */
+.solider-main-div{
+    background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/image 2.png');
+    width: 20%;
+    height: 300px;
+    background-position: 75% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 6rem;
+}
+.solider-war{
+    color: rgb(248, 246, 246);
+    backdrop-filter: blur(10px);
+    height: 100px;
+    padding: 0 10px;
+    position: relative;
+    top: 67%;
+}
+.solider-heading{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.solider-action{
+    padding: 10px 0;
+    font-size: 13px;
+    color: rgb(190, 183, 183);
+}
+.solider-download{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    background-color: #f35c3b;
+    position: relative;
+    left: 8rem;
+    bottom: 3.5rem;
+    color: rgb(248, 246, 246);
+}
+
+/* Warrior div */
+.warriors-main-div{
+    background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/image 4.png');
+    width: 20%;
+    height: 300px;
+    background-position: 55% 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 8rem;
+}
+.warriors-war{
+    color: rgb(248, 246, 246);
+    backdrop-filter: blur(10px);
+    height: 100px;
+    padding: 0 10px;
+    position: relative;
+    top: 67%;
+}
+.warriors-heading{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.warriors-action{
+    padding: 10px 0;
+    font-size: 13px;
+    color: rgb(190, 183, 183);
+}
+.warriors-download{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    background-color: #f35c3b;
+    position: relative;
+    left: 8rem;
+    bottom: 3.5rem;
+    color: rgb(248, 246, 246);
+}
+
+/* Pubjiken */
+.pubjiken-main-div{
+    background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/image 3.png');
+    width: 20%;
+    height: 300px;
+    background-position: 45% 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 10rem;
+}
+.pubjiken-war{
+    color: rgb(248, 246, 246);
+    backdrop-filter: blur(10px);
+    height: 100px;
+    padding: 0 10px;
+    position: relative;
+    top: 67%;
+}
+.pubjiken-heading{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.pubjiken-action{
+    padding: 10px 0;
+    font-size: 13px;
+    color: rgb(190, 183, 183);
+}
+.pubjiken-download{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    background-color: #f35c3b;
+    position: relative;
+    left: 8rem;
+    bottom: 3.5rem;
+    color: rgb(248, 246, 246);
+}
+
+/* Garela */
+.garela-main-div{
+    background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/Rectangle 56.png');
+    width: 20%;
+    height: 300px;
+    background-position: 45% 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 12rem;
+}
+.garela-war{
+    color: rgb(248, 246, 246);
+    backdrop-filter: blur(10px);
+    height: 100px;
+    padding: 0 10px;
+    position: relative;
+    top: 67%;
+}
+.garela-heading{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.garela-action{
+    padding: 10px 0;
+    font-size: 13px;
+    color: rgb(190, 183, 183);
+}
+.garela-download{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    background-color: #f35c3b;
+    position: relative;
+    left: 8rem;
+    bottom: 3.5rem;
+    color: rgb(248, 246, 246);
+}
+
+/* ********** Section 3 *************** */
+.section-three{
+    display: flex;
+    padding: 60px 100px;
+}
+.section-three-image{  
+    width: 70%;
+    height: 400px;
+    background-size: cover;
+    background-position: 45% 90%;
+    background-repeat: no-repeat;
+    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 57.png');  
+}
+.section-three-right{
+    padding: 0 100px;
+    width: 75%;
+}
+.section-three-heading{
+    font-size: 30px;
+    font-weight: 800;
+}
+.section-three-description{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px 0;
+    color: #808080;
+}
+.section-three-button{
+    padding: 30px 0;
+}
+.explore-button{
+    font-size: 15px;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    color: rgb(240, 234, 234);
+    background-color: #BF3312;
+    margin-right: 20px;
+}
+.learn-button{
+    font-size: 15px;
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid #BF3312;
+    color: #BF3312;
+    background-color: rgb(243, 240, 240);
+}
+
+/* ************* Section 4 *************** */
+.section-four{
+    margin-bottom: 0;
+}
+
+/* Section 4 top */
+
+.section-four-top{
+    display: flex;
+}
+.section-four-heading{
+    font-size: 25px;
+    width: 40%;
+    padding-left: 6rem;
+}
+.section-four-arrows{
+    display: flex;
+    position: relative;
+    left: 40rem;
+    top: 1.5rem;
+}
+.left-arrow{
+    height: 50px;
+    width: 50px;
+    padding: 15px 0;
+    text-align: center;
+    background-color:#bf321249;
+}
+.right-arrow{
+    background-color: #BF3312;
+    text-align: center;
+    padding: 15px 0;
+    height: 50px;
+    width: 50px;
+    margin: 0 20px;
+}
+
+/* Section 4 bottom */
+.section-four-bottom{
+    padding: 60px 0;
+}
+
+
+/* First and Second Combined */
+.first-and-second{
+    display: flex;
+    margin-left: 7rem;
+    padding-bottom: 70px;
+}
+/* Bottom First div  */
+.bottom-first-div{
+    display: flex;
+}
+.bottom-first-image{
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-position: 40% center;
+    background-repeat: no-repeat;
+    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 75.png'); 
+    position: relative;
+    right: 12px;
+}
+.bottom-first-heading{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.bottom-first-action{
+    font-size: 15px;
+    color: #f35c3b;
+    padding: 10px 0;
+}
+.bottom-first-description{
+    font-size: 15px;
+    color: #808080;
+    padding-bottom: 20px;
+}
+.bottom-first-button{
+    height: 50px;
+    width: 130px;
+    font-size: 18px;
+    border: none;
+    background-color: #f35c3b;
+    color: rgb(248, 246, 246);
+}
+/* Bottom 2nd div */
+.bottom-second-div{
+    display: flex;
+    position: relative;
+    left: 8rem;
+    /* background-color: rgb(99, 34, 34); */
+}
+.bottom-second-image{
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-position: 40% center;
+    background-repeat: no-repeat;
+    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 76.png'); 
+    position: relative;
+    left: 12px;
+}
+.bottom-second-content{
+    padding-left: 10px;
+}
+.bottom-second-heading{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.bottom-second-action{
+    font-size: 15px;
+    color: #f35c3b;
+    padding: 15px 0;
+}
+.bottom-second-description{
+    font-size: 15px;
+    color: #808080;
+    padding-bottom: 30px;
+}
+.bottom-second-button{
+    height: 50px;
+    width: 130px;
+    font-size: 18px;
+    border: none;
+    background-color: #f35c3b;
+    color: rgb(248, 246, 246);
+}
+
+
+/* Third and Fourth  */
+.third-and-fourth{
+    display: flex;
+    margin-left: 7rem;
+}
+/* Bottom Third Div */
+.bottom-third-div{
+    display: flex;
+}
+.bottom-third-image{
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-position: 40% center;
+    background-repeat: no-repeat;
+    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 77.png'); 
+    position: relative;
+    right: 12px;
+}
+.bottom-third-heading{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.bottom-third-action{
+    font-size: 15px;
+    color: #f35c3b;
+    padding: 15px 0;
+}
+.bottom-third-description{
+    font-size: 15px;
+    color: #808080;
+    padding-bottom: 18px;
+}
+.bottom-third-button{
+    height: 50px;
+    width: 130px;
+    font-size: 18px;
+    border: none;
+    background-color: #f35c3b;
+    color: rgb(248, 246, 246);
+}
+/* Bottom fourth Div */
+.bottom-fourth-div{
+    display: flex;
+    position: relative;
+    left: 10rem;
+}
+.bottom-fourth-image{
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-position: 40% center;
+    background-repeat: no-repeat;
+    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 78.png'); 
+    position: relative;
+    right: 12px;
+}
+.bottom-fourth-heading{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.bottom-fourth-action{
+    font-size: 15px;
+    color: #f35c3b;
+    padding: 20px 0;
+}
+.bottom-fourth-description{
+    font-size: 15px;
+    color: #808080;
+    padding-bottom: 30px;
+}
+.bottom-fourth-button{
+    height: 50px;
+    width: 130px;
+    font-size: 18px;
+    border: none;
+    background-color: #f35c3b;
+    color: rgb(248, 246, 246);
+}
+
+/* **************** Section 5 ************** */
+
+.section-five{
+    background-color: rgb(2, 2, 10);
+    color: #ffff;
+    padding: 30px 0;
+    overflow: hidden;
+}
+.section-five-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 0;
+}
+.section-five-heading >h1{
+    width: 35%;
+}
+.section-five-top{
+    display: flex;
+}
+.section-five-first-img{
+    width: 65%;
+    height: 500px;
+    background-size: contain;
+    background-position: 40% center;
+    background-repeat: no-repeat;
+    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 17.png');
+    z-index: 1;
+}
+.section-five-description{
+    position: relative;
+    right: 6rem;
+    top: 3rem;
+    color: #808080;
+    width: 70%;
+    height: 30%;
+}
+.section-five-watermark{
+    position: relative;
+    left: 30rem;
+    bottom: 23rem;
+    z-index: 0.5;
+}
+.section-five-bottom{
+    display: flex;
+}
+.section-five-second-img{
+    width: 30%;
+    height: 350px;
+    background-size: contain;
+    background-position: 40% center;
+    background-repeat: no-repeat;
+    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 18.png'); 
+    position: absolute;
+    top: 87cm;
+    left: 13cm;
+}
+.section-five-third-img{
+    width: 19%;
+    height: 200px;
+    background-size: contain;
+    background-position: 40% center;
+    background-repeat: no-repeat;
+    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 90.png'); 
+    position: absolute;
+    top: 91cm;
+    left: 22cm;
+}
+
+/* ************* Section 6 ************* */
+
+.section-six{
+    height: 400px;
+    background-size: cover;
+    background-position: 60% center;
+    background-repeat: no-repeat;
+    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 606.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 12, 12, 0.95);
+}
+.section-six-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+}
+.section-six-heading{
+    font-size: 30px;
+    color: rgb(240, 232, 232);
+    width: 70%;
+    text-align: center;
+}
+.section-six-description{
+    font-size: 18px;
+    color: #b9acac;
+    width: 70%;
+    text-align: center;
+    padding: 30px 0;
+}
+.section-six-button{
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+    border: none;
+    background-color: #f35c3b;
+    color: rgb(248, 246, 246);
+}
+
+/* ************** Section 7 *************** */
+
+.section-seven{
+    display: flex;
+    background-color: rgb(2, 2, 10);
+    color: #ffff;
+    padding: 50px 0;
+}
+.section-seven-logos{
+    padding: 50px 0 0 110px;
+}
+.last-description{
+    width: 60%;
+    font-size: 18px;
+    color: #9e9c9c;
+    padding: 20px 0;
+}
+.instagram{
+    padding: 0 10px;
+}
+.list-classes{
+    display: flex;
+}
+.last-lists{
+    list-style-type: none;
+    padding: 50px 30px;
+}
+.first-item{
+    color: #9e9c9c;
+    padding: 5px 0; 
+}
+.last-footer{
+    padding-bottom: 50px;
+    background-color: rgb(5, 5, 24);
+}
+hr{
+    height: 1px;
+    color: #9c1818;
+}
