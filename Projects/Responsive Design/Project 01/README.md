@@ -1,3 +1,2 @@
 # Project 1
-Output -
-![Project Link](https://seomasterbydev.netlify.app/)
+[Click Here](https://seomasterbydev.netlify.app/)
