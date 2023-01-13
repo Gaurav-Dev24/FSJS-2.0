@@ -1,5 +1,2 @@
-# Replicate the Following Output
-
-`Assests are Provided!`
-
-![Project 2](./Hosting%20Landing%20Page.png)
+# Project Credit Card Landing Page
+[Click Here](https://devresponsivehostingpage.netlify.app/)
