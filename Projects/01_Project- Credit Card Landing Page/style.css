@@ -1,492 +1,980 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Ubuntu', sans-serif;
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+html {
+  font-size: 62.5%;
 }
 /* All anchor tags */
-a{
-    text-decoration: none;
-    color: #ffff;
-    cursor: pointer;
+a {
+  text-decoration: none;
+  color: #ffff;
+  cursor: pointer;
 }
+
 /* *******************Navbar******************** */
-.navbar{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    background-color: rgb(28 25 23);
-    align-items: center;
-    justify-content: center;
-    color: #ffff;
-    padding: 5px;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(19, 18, 18);
+  color: #ffff;
+  padding: 2.5rem;
 }
-.logo{
-    margin-left: 100px;
-    padding: 5px;
-    height: 3.5rem;
-    width: 10rem;
+.logo {
+  transition: transform 0.5s;
 }
-.list{
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    list-style: none;
-    flex-grow: 2;
+.logo:hover {
+  transform: scale(1.5);
 }
-.button{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
-    width: 15rem;
-    margin-left: 13rem;
+.list {
+  display: flex;
+  list-style: none;
 }
-.eng{
-    position: relative;
-    left: 30px;
-    bottom: 3px;
-    height: 20px;
-    width: 30px;
+.navbar-list-items {
+  font-size: 2rem;
+  padding: 0 3rem;
+  color: rgb(117, 117, 117);
 }
-.pink-nav{
-    height: 28px;
-    width: 50px;
+.button {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: rgb(117, 117, 117);
 }
-.btn-contact{
-    position: relative;
-    bottom: 2px;
-    right: 70px;
-    color: #ffff;
-    width: 80px;
-    height: 18px;
+.eng {
+  padding: 0 2rem;
+}
+.contact-us {
+  display: flex;
+}
+.btn-contact {
+  position: relative;
+  top: 0.5rem;
+  right: 2rem;
 }
 
 /* Section 1 */
 /* ****************** Hero Section ************** */
-.hero-section{
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    background-color: rgb(28 25 23);
-    overflow: hidden;
+.hero-section {
+  background-color: rgb(19, 18, 18);
+  display: flex;
+  padding: 7rem;
+  overflow: hidden;
 }
 /* left-main */
-.left-main{
-    color: #ffff;
-    margin-top: 100px;
-    margin-left: 100px;
+
+.heading-text {
+  color: #ffffff;
+  font-size: 4rem;
+  width: 200%;
 }
-.heading-text{
-    width: 57rem;
-    font-size: 55px;
-    font-weight: 300;
+.para-text {
+  font-size: 2.2rem;
+  color: rgb(117, 117, 117);
+  padding: 3rem 0;
+  width: 155%;
 }
-.para-text{
-    margin: 5rem 0;
-    font-size: 22px;
-    color: rgba(185, 175, 175, 0.932);
-}
+
 /* Left main anchor */
-.left-main-anchor{
-    display: flex;
-    margin-top: 6rem ;
+.left-main-anchor {
+  display: flex;
 }
-.get-started{
-    font-size: 20px;
-    position: relative;
-    top: 2px;
-    right: 34px;
+.get-started {
+  font-size: 1.5rem;
+  position: relative;
+  top: 0.5rem;
+  right: 3.2rem;
 }
-.right-arrow{
-    position: relative;
-    top: 7px;
-    right: 30px;
+.right-arrow {
+  position: relative;
+  top: 0.7rem;
+  right: 2rem;
 }
-.viewer-subscribers{
-    display: flex;
-    margin-top: 5rem;
+
+/* 42k+ and 12k+ */
+.viewer-subscribers {
+  display: flex;
+  padding: 5rem 0;
 }
 /* User */
-.user{
-    display: flex;
+.user {
+  display: flex;
 }
-.user>h1{
-    font-size: 40px;
-    position: relative;
-    top: 10px;
+.view {
+  font-size: 4rem;
+  color: #ffffff;
+  margin-top: 1rem;
 }
-.user>span {
-    position: relative;
-    top: 10px;
-    color: rgba(185, 175, 175, 0.932);
-    margin-left: 10px;
-    font-size: 20px;
-    width: 110px;
+.plus {
+  font-size: 4rem;
+  color: rgb(240, 21, 222);
+  margin-top: 1rem;
 }
+.happy {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: #ffffff;
+}
+.exp {
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: #ffffff;
+}
+
 /* Vector */
-.vector{
-    margin: 0 40px;
+.vector {
+  padding: 0 4rem;
 }
+
 /* Experience */
-.experience{
-    display: flex;
+.experience {
+  display: flex;
 }
-.experience>h1{
-    font-size: 40px;
-    position: relative;
-    top: 10px;
-}
-.experience>span{
-    position: relative;
-    top: 10px;
-    color: rgba(185, 175, 175, 0.932);
-    margin-left: 10px;
-    font-size: 20px;
-    width: 30px;
-}
+
 /* Right Section */
-.front-image{
-    position: relative;
-    top: 0.5rem;
-    right: 3rem;
-    z-index: 1;
-    opacity: 1;
+
+.front-image {
+  position: relative;
+  left: 8.5rem;
+  bottom: 8rem;
+  z-index: 10;
 }
-.back-image{
-    position: absolute;
-    top: 2px;
-    left: 26rem;
-    z-index: 0.5;
-    opacity: 0.5;
+.back-image {
+  position: absolute;
+  top: 0.2rem;
+  left: 42rem;
+  z-index: 5;
 }
 
 /* **************Section 2********************* */
-.logo-section{
-    display: flex;
-    background-color: rgb(65, 58, 54);
-    align-items: center;
-    padding: 40px;
-    justify-content: space-evenly;
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4rem;
+  background-color: rgb(41, 39, 39);
 }
 
 /* ****************Section 3********************* */
-.section-three{
-    /* margin: auto; */
-    background-color: rgb(28 25 23);
+.section-three {
+  background-color: rgb(19, 18, 18);
+  padding: 10rem 0;
 }
+
 /* Top Division */
-#top-div{
-    display: flex;
-    margin: 0 100px;
-    padding: 50px 0;
+#top-div {
+  display: flex;
+  margin: 0 7rem;
+  padding: 3rem 0;
 }
-.section-three-heading{
-    width: 80rem;
-    font-size: 40px;
-    font-weight: 100;
-    color: #ffff;
+.section-three-heading {
+  font-size: 4rem;
+  font-weight: 100;
+  color: #ffff;
+  width: 60%;
 }
-.section-three-para{
-    text-align: center;
-    width: 50rem;
-    margin: 4rem 30px;
-    font-size: 22px;
-    color: rgba(185, 175, 175, 0.932);
+.section-three-para {
+  text-align: left;
+  font-size: 2.2rem;
+  color: #8a8a8a;
+  width: 40%;
+  margin-top: 7rem;
 }
 
 /* Bottom Division */
-#bottom-div{
-    display: flex;
-    margin: 10px 100px;
-    padding: 50px 0;
+
+#bottom-div {
+  display: flex;
+  margin: 0 7rem;
+  padding: 7rem 0;
 }
-.dollar-svg{
-    background-color:rgba(46, 45, 45, 0.932);
-    width: 350px;
-    height: 300px;
-    border-left: 1px solid rgba(255, 255, 255, 0.37);
-    
+
+/* Dollar SVG */
+.dollar-svg {
+  background-color: rgba(46, 45, 45, 0.932);
+  width: 35rem;
+  height: 30rem;
+  border-left: 0.1rem solid rgba(255, 255, 255, 0.37);
 }
-img[alt="dollar"]{
-    margin:2.5rem 5rem;
+.dollar-logo {
+  position: relative;
+  left: 9rem;
+  top: 3rem;
 }
-.cloud-svg{
-    background-color:rgba(121, 113, 113, 0.644);
-    width: 350px;
-    height: 300px;
-    position: relative;
-    left: 2.5rem;
-    bottom: 3rem;
-    border-left: 2px solid rgb(255, 255, 255);
-    border-top: 2px solid rgb(255, 255, 255);
-    border-right: 2px solid rgba(255, 255, 255, 0.24);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.356);
+.dollar-para {
+  font-size: 2.5rem;
+  color: #ffffff;
+  padding: 5rem 0 0 6rem;
 }
-img[alt="cloud"]{
-    margin:3.0rem 6rem;
+
+/* Cloud SVG */
+.cloud-svg {
+  background-color: rgba(121, 113, 113, 0.644);
+  width: 35rem;
+  height: 30rem;
+  border-left: 0.2rem solid rgb(255, 255, 255);
+  border-top: 0.2rem solid rgb(255, 255, 255);
+  border-right: 0.2rem solid rgba(255, 255, 255, 0.24);
+  border-bottom: 0.2rem solid rgba(255, 255, 255, 0.356);
+  position: relative;
+  left: 7rem;
+  bottom: 5rem;
 }
-.lock-svg{
-    background-color:rgba(46, 45, 45, 0.932);
-    width: 350px;
-    height: 300px;
-    position: relative;
-    left: 5rem;
-    border-left: 1px solid rgba(255, 255, 255, 0.37);
-    border-right: 1px solid rgba(255, 255, 255, 0.158);
+.cloud-logo {
+  position: relative;
+  left: 10rem;
+  top: 3rem;
 }
-img[alt="lock"]{
-    margin:2.5rem 6rem;
+.cloud-para {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 5rem 0 0 1rem;
 }
-.dollar-svg > p{
-    font-size: 25px;
-    color: rgb(238, 232, 232);
-    position: relative;
-    left: 3rem;
-    bottom: 2rem;
+
+/* Lock SVG */
+.lock-svg {
+  background-color: rgba(46, 45, 45, 0.932);
+  width: 35rem;
+  height: 30rem;
+  border-left: 0.1rem solid rgba(255, 255, 255, 0.37);
+  border-right: 0.1rem solid rgba(255, 255, 255, 0.158);
+  position: relative;
+  left: 14rem;
 }
-.cloud-svg > p{
-    text-align: center;
-    width: 280px;
-    height: 100px;
-    padding: 0 5px;
-    font-size: 25px;
-    color: rgb(238, 232, 232);
-    position: relative;
-    left: 3rem;
-    bottom: 2.8rem;
+.lock-logo {
+  position: relative;
+  left: 10rem;
+  top: 3rem;
 }
-.lock-svg > p{
-    position: relative;
-    left: 4rem;
-    bottom: 2rem;
-    font-size: 25px;
-    color: rgb(238, 232, 232);
+.lock-para {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 5rem 0 0 1rem;
 }
 
 /* ****************Section 4******************* */
-.section-four{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(245, 231, 238);
+.section-four {
+  background-color: rgb(245, 231, 238);
 }
-.section-four-heading{
-    text-align: center;
-    font-weight: 100;
-    width: 700px;
-    height: 100px;
-    font-size: 40px;
-    margin-top: 5rem;
+.section-four-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 7rem 0;
 }
-.section-four-para{
-    text-align: center;
-    margin-top: 6rem;
-    padding: 10px;
-    width: 510px;  
-    height: 100px;
-    font-weight: 600;
-    font-size: 15px;
-    color: #312f2f81;
+.section-four-heading {
+  font-size: 4rem;
+  width: 50%;
+  text-align: center;
 }
-.vertical-card{
-    width: 80%;
-    position: relative;
-    right: 3rem;
-    bottom: 5rem;
+.section-four-para {
+  font-size: 2rem;
+  color: #22202081;
+  font-weight: 600;
+  width: 50%;
+  text-align: center;
+  padding: 7rem 0 0 0;
+}
+
+.vertical-card {
+  position: relative;
+  left: 9rem;
+  bottom: 8rem;
 }
 
 /* *******************Section 5****************** */
 
-.section-five{
-    background-color: rgb(28 25 23);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+.section-five {
+  background-color: rgb(19, 18, 18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 0;
 }
-.section-five-heading{
-    text-align: center;
-    font-weight: 100;
-    width: 800px;
-    height: 100px;
-    font-size: 40px;
-    margin-top: 3rem;
-    color: #ffff;
+/* Section five top */
+.section-five-top {
+  text-align: center;
+  position: relative;
+  left: 25rem;
 }
-.section-five-para{
-    text-align: center;
-    margin-top: 6rem;
-    padding: 10px;
-    width: 510px;  
-    height: 80px;
-    font-weight: 600;
-    font-size: 15px;
-    color: #a39a9a;
+.section-five-heading {
+  font-size: 4rem;
+  color: #ffff;
+  width: 65%;
 }
-.rating-top{
-    display: flex;
-    margin: 50px 0;
+.section-five-para {
+  font-size: 2rem;
+  color: #7e7d7d;
+  width: 40%;
+  padding: 5rem 0;
+  margin-left: 18rem;
 }
-.melvin{
-    padding: 20px;
-    color: #cac2c2;
-    background-color: rgba(121, 113, 113, 0.644);
-    height: 230px;
-    width: 420px;
-    border-left: 2px solid rgba(255, 255, 255, 0.623);
-    border-top: 2px solid rgba(255, 255, 255, 0.418);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.418);
-    border-right: 1px solid rgba(255, 255, 255, 0.418);
-    position: relative;
-    right: 50px;
+
+/* Section five bottom */
+/* top */
+.rating-top {
+  display: flex;
+  margin: 5rem 0;
 }
-.melvin>p {
-    margin: 20px 10px;
+.melvin {
+  padding: 2rem;
+  color: #cac2c2;
+  background-color: rgba(121, 113, 113, 0.644);
+  height: 23rem;
+  width: 42rem;
+  border-left: 0.2rem solid rgba(255, 255, 255, 0.623);
+  border-top: 0.2rem solid rgba(255, 255, 255, 0.418);
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.418);
+  border-right: 0.1rem solid rgba(255, 255, 255, 0.418);
+  position: relative;
+  right: 5rem;
 }
-.melvin>span {
-    margin: 20px 10px;
+.melvin > p {
+  margin: 2rem 1rem;
+  font-size: 1.5rem;
 }
-.gabriel{
-    padding: 20px;
-    color: #cac2c2;
-    background-color:rgba(46, 45, 45, 0.932);
-    height: 230px;
-    width: 420px;
-    border-top: 1px solid rgba(255, 255, 255, 0.336);
-    border-left: 1px solid rgba(255, 255, 255, 0.623);
-    border-right: 1px solid rgba(255, 255, 255, 0.418);
-    position: relative;
-    left: 20px;
-    
+.melvin > span {
+  margin: 2rem 1rem;
+  font-size: 1.5rem;
 }
-.gabriel>p {
-    margin: 20px 10px;
+.gabriel {
+  padding: 2rem;
+  color: #cac2c2;
+  background-color: rgba(46, 45, 45, 0.932);
+  height: 23rem;
+  width: 42rem;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.336);
+  border-left: 0.1rem solid rgba(255, 255, 255, 0.623);
+  border-right: 0.1rem solid rgba(255, 255, 255, 0.418);
+  position: relative;
+  left: 5rem;
 }
-.gabriel>span {
-    margin: 20px 10px;
+.gabriel > p {
+  margin: 2rem 1rem;
+  font-size: 1.5rem;
 }
-.rating-bottom{
-    display: flex;
-    margin: 50px 0;
+.gabriel > span {
+  margin: 2rem 1rem;
+  font-size: 1.5rem;
 }
-.farhan{
-    padding: 20px;
-    color: #cac2c2;
-    background-color:rgba(46, 45, 45, 0.932);
-    height: 230px;
-    width: 420px;
-    border-top: 1px solid rgba(255, 255, 255, 0.336);
-    border-left: 1px solid rgba(255, 255, 255, 0.623);
-    border-right: 1px solid rgba(255, 255, 255, 0.418);
-    position: relative;
-    right: 50px;
+
+/* Bottom */
+.rating-bottom {
+  display: flex;
+  margin: 5rem 0;
 }
-.farhan>p {
-    margin: 20px 10px;
+.farhan {
+  padding: 2rem;
+  color: #cac2c2;
+  background-color: rgba(46, 45, 45, 0.932);
+  height: 23rem;
+  width: 42rem;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.336);
+  border-left: 0.1rem solid rgba(255, 255, 255, 0.623);
+  border-right: 0.1rem solid rgba(255, 255, 255, 0.418);
+  position: relative;
+  right: 5rem;
 }
-.farhan>span {
-    margin: 20px 10px;
+.farhan > p {
+  margin: 2rem 1rem;
+  font-size: 1.5rem;
 }
-.alex{
-    padding: 20px;
-    color: #cac2c2;
-    background-color:rgba(46, 45, 45, 0.932);
-    height: 230px;
-    width: 420px;
-    border-top: 1px solid rgba(255, 255, 255, 0.336);
-    border-left: 1px solid rgba(255, 255, 255, 0.623);
-    border-right: 1px solid rgba(255, 255, 255, 0.418);
-    position: relative;
-    left: 20px;
+.farhan > span {
+  margin: 2rem 1rem;
+  font-size: 1.5rem;
+}
+
+.alex {
+  padding: 2rem;
+  color: #cac2c2;
+  background-color: rgba(46, 45, 45, 0.932);
+  height: 23rem;
+  width: 42rem;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.336);
+  border-left: 0.1rem solid rgba(255, 255, 255, 0.623);
+  border-right: 0.1rem solid rgba(255, 255, 255, 0.418);
+  position: relative;
+  left: 5rem;
 }
 .alex > p {
-    margin: 20px 10px;
+  margin: 2rem 1rem;
+  font-size: 1.5rem;
 }
 .alex > span {
-    margin: 20px 10px;
+  margin: 2rem 1rem;
+  font-size: 1.5rem;
 }
 
 /* ******************Section 6****************** */
 
-.section-six{
-    background-color: rgb(28 25 23);
-    overflow: hidden; 
+.section-six {
+  background-color: rgb(19, 18, 18);
 }
-.rectangle-one{
-    position: relative;
-    top: 10rem;
+.rectangle-and-diamond {
+  display: flex;
 }
-.rectangle-two{
-    position: relative;
-    bottom: 24.4rem;
+.rectangle-one {
+  position: relative;
+  right: 9.5rem;
 }
-.diamonds{
-    display: flex;
+.rectangle-two {
+  position: absolute;
+  right: 0.5rem;
 }
-.diamond-left{
-    position: relative;
-    bottom: 60rem;   
+.diamonds {
+  display: flex;
+  position: absolute;
 }
-.diamond-right{
-    position: relative;
-    left: 20rem;
-    bottom: 56rem;
+.diamond-left {
+  position: relative;
+  bottom: 1.7rem;
 }
-.section-six-heading{
-    text-align: center;
-    color: #ffff;
-    font-size: 40px;
-    width: 50rem;
-    position: relative;
-    left: 20rem;
-    bottom: 80rem;
+.diamond-right {
+  position: relative;
+  left: 25rem;
+  top: 3rem;
 }
-.section-six-pink{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    bottom: 76.5rem;
-    left: 2.5rem;
 
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 40rem;
 }
-.pink-btn{
+.section-six-heading {
+  text-align: center;
+  color: #ffff;
+  font-size: 4rem;
+  width: 60%;
+}
+.section-six-pink {
+  display: flex;
+}
+.section-six-get {
+  position: relative;
+  top: 0.5rem;
+  right: 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.section-six-arrow {
+  position: relative;
+  top: 0.7rem;
+  right: 1.5rem;
+}
+
+/* ********* Footer ********** */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 10rem;
+}
+.last-logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  color: #ffff;
+}
+.items {
+  margin: 2.5rem;
+  font-size: 2rem;
+}
+.last-logo {
+  position: relative;
+  right: 1.5rem;
+}
+
+/* ***********Media Query ************** */
+/* max-width: 480px */
+@media (max-width: 480px) {
+  html {
+    font-size: 40%;
+  }
+  .nav-list,
+  .button {
+    display: none;
+  }
+  .hero-section {
+    display: block;
+  }
+  .heading-text {
+    margin-left: 11rem;
+    width: 80%;
+  }
+  .para-text {
+    text-align: justify;
+    width: 50%;
+    margin-left: 12rem;
+  }
+  .left-main-anchor {
+    margin-left: 12rem;
+  }
+  .get-started {
     position: relative;
-    left: 28px;
-}
-.section-six-get{
+    top: 1.4rem;
+  }
+  .front-image,
+  .back-image {
+    display: none;
+  }
+  img[alt="logo-4"],
+  img[alt="logo-1"] {
+    display: none;
+  }
+  #bottom-div {
+    display: block;
+  }
+  .dollar-svg {
+    margin: 12rem 10rem;
+  }
+  .dollar-logo {
     position: relative;
-    bottom: 3px;
-    left: 5px;
-    font-weight: 600;
-}
-.section-six-arrow{
+    left: 5rem;
+    top: 2rem;
+  }
+  .cloud-svg {
+    margin: 5rem 3rem;
+  }
+  .cloud-logo {
     position: relative;
-    left: 12px;
-}
-.footer{
+    left: 5rem;
+    top: 2rem;
+  }
+  .lock-svg {
+    position: relative;
+    left: 10rem;
+  }
+  .lock-logo {
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+  }
+  img[alt="vcard"] {
+    width: 80%;
+    height: 50%;
+  }
+  .section-five-top {
+    position: relative;
+    left: 15rem;
+  }
+  .section-five-para {
+    margin-left: 9rem;
+  }
+  .rating-top {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 5rem 6rem;
+  }
+  .melvin {
+    width: 55%;
+    height: 100%;
+    position: relative;
+    right: 0;
+  }
+  .gabriel {
+    width: 55%;
+    position: relative;
+    left: 0;
+    height: 100%;
+  }
+  .rating-bottom {
+    display: flex;
+    margin: 5rem 7rem;
+  }
+  .farhan {
+    width: 55%;
+    height: 100%;
+    position: relative;
+    right: 0;
+  }
+  .alex {
+    width: 55%;
+    position: relative;
+    left: 0;
+    height: 100%;
+  }
+  .heading {
     position: relative;
     bottom: 60rem;
-}
-.last-logo-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    color: #ffff;
-}
-.items{
-    margin: 25px;
-    font-weight: 600;
-}
-.last-logo{
+  }
+  .section-six-get {
     position: relative;
-    right: 15rem;
+    top: 1.5rem;
+  }
+  .footer {
+    display: block;
+  }
+  .last-logo {
+    position: relative;
+    left: 26rem;
+  }
+}
+
+/* min-width:481px and max-width:600px */
+@media (min-width: 481px) and (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+  .logo,
+  .button {
+    display: none;
+  }
+  .list {
+    margin-right: 15rem;
+  }
+  .hero-section {
+    display: block;
+  }
+  .heading-text {
+    margin-left: 5rem;
+    width: 80%;
+  }
+  .para-text {
+    text-align: justify;
+    width: 50%;
+    margin-left: 6rem;
+  }
+  .left-main-anchor {
+    margin-left: 12rem;
+  }
+  .get-started {
+    position: relative;
+    top: 1.4rem;
+  }
+  .viewer-subscribers {
+    margin-right: 12rem;
+  }
+  img[alt="front image"] {
+    width: 70%;
+    height: 50%;
+  }
+  img[alt="back image"] {
+    display: none;
+  }
+  .front-image {
+    position: relative;
+    left: 5.5rem;
+    top: 2rem;
+  }
+  img[alt="logo-4"],
+  img[alt="logo-1"] {
+    display: none;
+  }
+  .logo-section {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 17rem;
+  }
+  #top-div {
+    display: block;
+    margin-left: 8rem;
+  }
+  .section-three-heading {
+    width: 80%;
+  }
+  .section-three-para {
+    width: 70%;
+  }
+  #bottom-div {
+    display: block;
+  }
+  .dollar-svg {
+    margin: 12rem 8rem;
+    height: 100%;
+  }
+  .dollar-logo {
+    position: relative;
+    left: 7rem;
+    top: 2rem;
+  }
+  .dollar-para {
+    padding: 3rem 6rem;
+  }
+  .cloud-svg {
+    margin: 5rem 1rem;
+    height: 100%;
+  }
+  .cloud-logo {
+    position: relative;
+    left: 7rem;
+    top: 2rem;
+  }
+  .cloud-para {
+    padding: 3rem 6rem;
+  }
+  .lock-svg {
+    position: relative;
+    left: 8rem;
+    height: 100%;
+  }
+  .lock-logo {
+    position: relative;
+    left: 7rem;
+    top: 2rem;
+  }
+  .lock-para {
+    padding: 3rem 6rem;
+  }
+  .section-four-top {
+    margin-right: 12rem;
+  }
+  img[alt="vcard"] {
+    width: 60%;
+    height: 60%;
+  }
+  .section-five-top {
+    position: relative;
+    left: 8rem;
+  }
+  .section-five-para {
+    margin-left: 9rem;
+  }
+  .section-five-bottom {
+    margin-left: 8rem;
+  }
+  .rating-top {
+    display: block;
+    margin: 5rem 12rem;
+  }
+  .melvin {
+    width: 55%;
+    height: 100%;
+    position: relative;
+    right: 0;
+    margin-bottom: 2rem;
+  }
+  .gabriel {
+    width: 55%;
+    position: relative;
+    left: 0;
+    height: 100%;
+  }
+  .rating-bottom {
+    display: block;
+    margin: 5rem 12rem;
+  }
+  .farhan {
+    width: 55%;
+    height: 100%;
+    position: relative;
+    right: 0;
+    margin-bottom: 2rem;
+  }
+  .alex {
+    width: 55%;
+    position: relative;
+    left: 0;
+    height: 100%;
+  }
+  .heading {
+    position: relative;
+    right: 8rem;
+    bottom: 60rem;
+  }
+  .section-six-get {
+    position: relative;
+    top: 1.5rem;
+  }
+  .footer {
+    display: block;
+  }
+  .last-logo-section {
+    margin-right: 15rem;
+  }
+  .last-logo {
+    position: relative;
+    left: 26rem;
+  }
+}
+
+/* min-width:601px and max-width:768px*/
+@media (min-width: 601px) and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    padding: 1.5rem 1rem;
+  }
+  .navbar-list-items {
+    padding: 0 1.5rem;
+  }
+  .heading-text {
+    margin-left: 5rem;
+    width: 95%;
+  }
+  .para-text {
+    text-align: justify;
+    width: 70%;
+    margin-left: 6rem;
+  }
+  .left-main-anchor {
+    margin: 10rem 5rem;
+  }
+  .get-started {
+    position: relative;
+    top: 1.4rem;
+  }
+  #bottom-div {
+    display: flex;
+    margin: 0 0.5rem;
+    padding: 5rem 0;
+  }
+  .dollar-svg {
+    width: 30rem;
+    height: 30rem;
+  }
+  .dollar-logo {
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+  }
+  .dollar-para {
+    padding: 5rem 0 0 4rem;
+  }
+  .cloud-svg {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    left: 0.8rem;
+    bottom: 5rem;
+  }
+  .cloud-logo {
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+  }
+  .cloud-para {
+    padding: 2rem 0 0 1rem;
+  }
+  .lock-svg {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    left: 1.5rem;
+  }
+  .lock-logo {
+    position: relative;
+    left: 5rem;
+    top: 3rem;
+  }
+  .lock-para {
+    padding: 5rem 0 0 1rem;
+  }
+  img[alt="vcard"] {
+    width: 80%;
+    height: 70%;
+  }
+  .section-five-top {
+    position: relative;
+    left: 15rem;
+  }
+  .section-five-para {
+    margin-left: 13rem;
+  }
+  .melvin {
+    position: relative;
+    right: 4rem;
+  }
+  .gabriel {
+    position: relative;
+    left: 1rem;
+  }
+  .farhan {
+    position: relative;
+    right: 4rem;
+  }
+  .alex {
+    position: relative;
+    left: 1rem;
+  }
+  .heading {
+    position: relative;
+    right: 3rem;
+    bottom: 50rem;
+  }
+  .section-six-get {
+    position: relative;
+    top: 1.5rem;
+  }
+  .footer {
+    display: block;
+  }
+  .last-logo-section {
+    margin-right: 5rem;
+  }
+  .last-logo {
+    position: relative;
+    left: 38rem;
+  }
+}
+
+/* min-width:769px and max-width:1024px */
+
+@media (min-width:769px) and (max-width:1024px) {
+  html{
+    font-size: 52%;
+  }
+  .viewer-subscribers {
+    margin: 12rem 0;
+  }
+  .dollar-svg {
+    width: 35rem;
+    height: 30rem;
+  }
+  .dollar-logo {
+    position: relative;
+    left: 8rem;
+    top: 2rem;
+  }
+  .dollar-para {
+    padding: 5rem 0 0 6rem;
+  }
+  .cloud-svg {
+    width: 35rem;
+    height: 30rem;
+    position: relative;
+    left: 1.5rem;
+    bottom: 5rem;
+  }
+  .cloud-logo {
+    position: relative;
+    left: 8rem;
+    top: 2rem;
+  }
+  .cloud-para {
+    padding: 2rem 0 0 1rem;
+  }
+  .lock-svg {
+    width: 35rem;
+    height: 30rem;
+    position: relative;
+    left: 3rem;
+  }
+  .lock-logo {
+    position: relative;
+    left: 8rem;
+    top: 3rem;
+  }
+  .lock-para {
+    padding: 5rem 0 0 1rem;
+  }
+  img[alt="vcard"] {
+    width: 85%;
+    height: 70%;
+  }
 }
