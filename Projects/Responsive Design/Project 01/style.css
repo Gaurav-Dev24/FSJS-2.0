@@ -87,30 +87,25 @@ span{
     .right-div{
         overflow: hidden;
     }
-}
-@media (max-width:390px){
+
     .banner-container{
         display: block;
         margin-top: 5rem;
     }
-}
-@media (max-width:390px){
+
     .list{
         align-items: center;
         justify-content: center;
     }
-}
-@media (max-width:390px){
+
     .heading-text{
         font-size: 30px;
     }
-}
-@media (max-width:390px){
+
     .description{
         font-size: 15px;
     }
-}
-@media (max-width:390px){
+
     .nav-button{
         width: 100px;
         font-size: 15px;
@@ -123,27 +118,23 @@ span{
     .right-div{
         overflow: hidden;
     }
-}
-@media  (min-width:391px) and (max-width:1200px){
+
     .banner-container{
         margin-top: 5rem;
         flex-wrap: wrap;
     }
-}
-@media  (min-width:391px) and (max-width:1200px){
+
     .list{
         align-items: center;
         justify-content: center;
     }
-}
-@media  (min-width:391px) and (max-width:1200px){
+
     .heading-text{
         font-size: 50px;
         align-items: center;
         justify-content: center;
     }
-}
-@media  (min-width:391px) and (max-width:1200px){
+
     .description{
         font-size: 30px;
         align-items: center;
