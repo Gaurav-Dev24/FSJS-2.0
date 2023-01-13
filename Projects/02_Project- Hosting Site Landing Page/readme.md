@@ -1,2 +1,5 @@
-# Project Site Hosting Landing Page
-[Click Here](https://devhostinglandinpage.netlify.app/)
+# Replicate the Following Output
+
+`Assests are Provided!`
+
+![Project 2](./Hosting%20Landing%20Page.png)
