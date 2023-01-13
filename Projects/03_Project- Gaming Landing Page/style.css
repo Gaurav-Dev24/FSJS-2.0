@@ -7,6 +7,9 @@ body{
     font-family: 'Nunito Sans', sans-serif;
     
 }
+html{
+    font-size: 62.5%;
+}
 .section-one{
     background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/futuristic-bg.png');
     color: rgb(240, 234, 234);
@@ -16,106 +19,127 @@ body{
 /**************** Navbar********** */
 .navbar{
     display: flex;
-    padding: 30px 25px;
+    padding: 3rem 3rem;
 }
 .logo{
-    margin: 0 75px;
+    margin: 0 7.5rem;
+    transition: transform .2s;
+}
+.logo:hover{
+    transform: scale(1.5);
 }
 .list{
     display: flex;
-    padding: 10px 0;
+    padding: 1rem 0;
     list-style-type: none;
 }
 .list-items{
-    font-size: 17px;
-    margin: 0 20px;
+    font-size: 2rem;
+    margin: 0 3rem;
+    transition: transform .2s;
+}
+.list-items:hover{
+    transform: scale(1.5);
+    color: #808080;
 }
 .nav-button{
     position: relative;
     left: 18rem;
 }
 .sign-in{
-    font-size: 15px;
-    width: 6rem;
-    height: 3rem;
+    font-size: 1.8rem;
+    width: 10rem;
+    height: 5rem;
     border: none;
     color: rgb(240, 234, 234);
     background-color: rgb(22, 22, 22, 0.2);
 }
+.sign-in:hover{
+    background-color: #BF3312;
+}
 .sign-up{
-    font-size: 15px;
-    width: 6rem;
-    height: 3rem;
+    font-size: 1.8rem;
+    width: 10rem;
+    height: 5rem;
     border: none;
     color: rgb(240, 234, 234);
     background-color: #BF3312;
 }
-
+.sign-up:hover{
+    background-color: rgb(240, 234, 234);
+    color: #BF3312;
+}
 /* **************** Main Section **************** */
 .main-section{
     display: flex;
-    padding: 50px 0;
+    padding: 15rem 0;
 }
 /* *************Left Main Div **************** */
 .left-main{
-    width: 60%;
-    padding-left: 94px;
-    padding-top: 50px;
+    padding:4rem 0 0 10rem;
 }
 .left-main-heading{
-    font-size: 40px;
+    font-size: 4rem;
+    width: 80%;
     font-weight: 600;
 }
 .left-main-para{
-    font-size: 18px;
-    width: 85%;
+    font-size: 2rem;
+    width: 75%;
 }
 .left-main-buttons{
-    padding: 30px 0;
+    padding: 3rem 0;
 }
 .get-started-button{
-    font-size: 15px;
-    width: 10rem;
-    height: 3rem;
+    font-size: 2rem;
+    width: 12rem;
+    height: 5rem;
     border: none;
     color: rgb(240, 234, 234);
     background-color: #BF3312;
-    margin-right: 20px;
+    margin-right: 2rem;
+}
+.get-started-button:hover{
+    background-color: #fff;
+    color: #BF3312;
 }
 .learn-more-button{
-    font-size: 15px;
-    width: 10rem;
-    height: 3rem;
+    font-size: 2rem;
+    width: 12rem;
+    height: 5rem;
     border: 2px solid rgb(240, 234, 234);
     color: rgb(240, 234, 234);
     background-color: rgb(22, 22, 22, 0.2);
 }
+.learn-more-button:hover{
+   background-color: #BF3312;
+   color: #ffffff;
+   border: none;
+}
 
 /* *************Right Main Div **************** */
 .right-main{
-    padding: 0 80px;
+    padding: 0 8rem;
 }
 .right-main-play{
     position: relative;
-    top: 12rem;
-    left: 15rem;
+    top: 5rem;
+    left: 8rem;
 }
 .right-main-div{
     display: flex;
-    width: 75%;
     position: relative;
-    top: 17.5rem;
-    left: 7rem;
+    top: 10rem;
 }
 .right-main-heading{
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 .right-main-dash{
-    padding-right: 20px;
+    padding-right: 2rem;
 }
 .right-main-arrow{
     position: relative;
-    top: 5rem;
+    top: 10rem;
 }
 
 /* ************Section 2 ************ */
@@ -126,7 +150,7 @@ body{
 }
 .section-two-heading{
     margin-left: 16rem;
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 600;
     text-align: center;
     width: 70%;
@@ -136,12 +160,13 @@ body{
 /* Section 2 bottom */
 .section-two-games{
     display: flex;
+    margin-left: 7rem;
 }
 /* Solider div */
 .solider-main-div{
     background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/image 2.png');
     width: 20%;
-    height: 300px;
+    height: 30rem;
     background-position: 75% 30%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,24 +176,29 @@ body{
 .solider-war{
     color: rgb(248, 246, 246);
     backdrop-filter: blur(10px);
-    height: 100px;
-    padding: 0 10px;
+    height: 10rem;
+    padding: 0 1rem;
     position: relative;
     top: 67%;
+    transition: transform .5s;
+}
+.solider-war:hover{
+    transform: scale(1.1);
+    background-color: rgb(34, 31, 31);
 }
 .solider-heading{
-    font-size: 13px;
-    padding-top: 10px;
+    font-size: 1rem;
+    padding-top: 1rem;
 }
 .solider-action{
-    padding: 10px 0;
-    font-size: 13px;
+    padding: 1rem 0;
+    font-size: 1.3rem;
     color: rgb(190, 183, 183);
 }
 .solider-download{
-    height: 40px;
-    width: 120px;
-    font-size: 16px;
+    height: 4rem;
+    width: 12rem;
+    font-size: 1.6rem;
     border: none;
     background-color: #f35c3b;
     position: relative;
@@ -176,12 +206,15 @@ body{
     bottom: 3.5rem;
     color: rgb(248, 246, 246);
 }
-
+.solider-download:hover{
+    background-color: #fff;
+    color: #f35c3b;
+}
 /* Warrior div */
 .warriors-main-div{
     background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/image 4.png');
     width: 20%;
-    height: 300px;
+    height: 30rem;
     background-position: 55% 90%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,24 +224,29 @@ body{
 .warriors-war{
     color: rgb(248, 246, 246);
     backdrop-filter: blur(10px);
-    height: 100px;
-    padding: 0 10px;
+    height: 10rem;
+    padding: 0 1rem;
     position: relative;
     top: 67%;
+    transition: transform .5s;
+}
+.warriors-war:hover{
+    transform: scale(1.1);
+    background-color: rgb(34, 31, 31);
 }
 .warriors-heading{
-    font-size: 13px;
-    padding-top: 10px;
+    font-size: 1rem;
+    padding-top: 1rem;
 }
 .warriors-action{
-    padding: 10px 0;
-    font-size: 13px;
+    padding: 1rem 0;
+    font-size: 1.3rem;
     color: rgb(190, 183, 183);
 }
 .warriors-download{
-    height: 40px;
-    width: 120px;
-    font-size: 16px;
+    height: 4rem;
+    width: 12rem;
+    font-size: 1.6rem;
     border: none;
     background-color: #f35c3b;
     position: relative;
@@ -216,12 +254,15 @@ body{
     bottom: 3.5rem;
     color: rgb(248, 246, 246);
 }
-
+.warriors-download:hover{
+    background-color: #fff;
+    color: #f35c3b;
+}
 /* Pubjiken */
 .pubjiken-main-div{
     background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/image 3.png');
     width: 20%;
-    height: 300px;
+    height: 30rem;
     background-position: 45% 90%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,24 +272,29 @@ body{
 .pubjiken-war{
     color: rgb(248, 246, 246);
     backdrop-filter: blur(10px);
-    height: 100px;
-    padding: 0 10px;
+    height: 10rem;
+    padding: 0 1rem;
     position: relative;
     top: 67%;
+    transition: transform .5s;
+}
+.pubjiken-war:hover{
+    transform: scale(1.1);
+    background-color: rgb(34, 31, 31);
 }
 .pubjiken-heading{
-    font-size: 13px;
-    padding-top: 10px;
+    font-size: 1rem;
+    padding-top: 1rem;
 }
 .pubjiken-action{
-    padding: 10px 0;
-    font-size: 13px;
+    padding: 1rem 0;
+    font-size: 1.3rem;
     color: rgb(190, 183, 183);
 }
 .pubjiken-download{
-    height: 40px;
-    width: 120px;
-    font-size: 16px;
+    height: 4rem;
+    width: 12rem;
+    font-size: 1.6rem;
     border: none;
     background-color: #f35c3b;
     position: relative;
@@ -256,12 +302,15 @@ body{
     bottom: 3.5rem;
     color: rgb(248, 246, 246);
 }
-
+.pubjiken-download:hover{
+    background-color: #fff;
+    color: #f35c3b;
+}
 /* Garela */
 .garela-main-div{
     background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/Rectangle 56.png');
     width: 20%;
-    height: 300px;
+    height: 30rem;
     background-position: 45% 90%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -271,24 +320,29 @@ body{
 .garela-war{
     color: rgb(248, 246, 246);
     backdrop-filter: blur(10px);
-    height: 100px;
-    padding: 0 10px;
+    height: 10rem;
+    padding: 0 1rem;
     position: relative;
     top: 67%;
+    transition: transform .5s;
+}
+.garela-war:hover{
+    transform: scale(1.1);
+    background-color: rgb(34, 31, 31);
 }
 .garela-heading{
-    font-size: 13px;
-    padding-top: 10px;
+    font-size: 1rem;
+    padding-top: 1rem;
 }
 .garela-action{
-    padding: 10px 0;
-    font-size: 13px;
+    padding: 1rem 0;
+    font-size: 1.3rem;
     color: rgb(190, 183, 183);
 }
 .garela-download{
-    height: 40px;
-    width: 120px;
-    font-size: 16px;
+    height: 4rem;
+    width: 12rem;
+    font-size: 1.6rem;
     border: none;
     background-color: #f35c3b;
     position: relative;
@@ -296,59 +350,76 @@ body{
     bottom: 3.5rem;
     color: rgb(248, 246, 246);
 }
+.garela-download:hover{
+    background-color: #fff;
+    color: #f35c3b;
+}
 
 /* ********** Section 3 *************** */
 .section-three{
     display: flex;
-    padding: 60px 100px;
+    padding: 6rem 0;
 }
 .section-three-image{  
-    width: 70%;
-    height: 400px;
+    width: 85%;
+    height: 40rem;
     background-size: cover;
     background-position: 45% 90%;
     background-repeat: no-repeat;
     background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 57.png');  
+    transition: transform .5s;
+    margin-left: 12rem;
+}
+.section-three-image:hover{  
+    transform: scale(1.2);
 }
 .section-three-right{
-    padding: 0 100px;
-    width: 75%;
+    margin-left: 10rem;
 }
 .section-three-heading{
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 800;
+    width: 70%;
 }
 .section-three-description{
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 600;
-    padding: 20px 0;
+    padding: 2rem 0;
     color: #808080;
+    width: 80%;
 }
 .section-three-button{
-    padding: 30px 0;
+    padding: 3rem 0;
 }
 .explore-button{
-    font-size: 15px;
-    width: 10rem;
-    height: 3rem;
+    font-size: 2rem;
+    width: 15rem;
+    height: 5rem;
     border: none;
     color: rgb(240, 234, 234);
     background-color: #BF3312;
-    margin-right: 20px;
+    margin-right: 2rem;
+}
+.explore-button:hover{
+    color: #BF3312;
+    background-color: #ffffff;
+    border: 0.2rem solid rgb(97, 95, 95);
 }
 .learn-button{
-    font-size: 15px;
-    width: 10rem;
-    height: 3rem;
+    font-size: 2rem;
+    width: 15rem;
+    height: 5rem;
     border: 2px solid #BF3312;
     color: #BF3312;
     background-color: rgb(243, 240, 240);
 }
+.learn-button:hover{
+    border: none;
+    color:  rgb(243, 240, 240);
+    background-color: #BF3312;
+}
 
 /* ************* Section 4 *************** */
-.section-four{
-    margin-bottom: 0;
-}
 
 /* Section 4 top */
 
@@ -356,9 +427,9 @@ body{
     display: flex;
 }
 .section-four-heading{
-    font-size: 25px;
+    font-size: 2.5rem;
     width: 40%;
-    padding-left: 6rem;
+    padding-left: 10rem;
 }
 .section-four-arrows{
     display: flex;
@@ -367,32 +438,39 @@ body{
     top: 1.5rem;
 }
 .left-arrow{
-    height: 50px;
-    width: 50px;
-    padding: 15px 0;
+    height: 5rem;
+    width: 5rem;
+    padding: 1.5rem 0;
     text-align: center;
     background-color:#bf321249;
+    transition: transform .5s;
+}
+.left-arrow:hover{
+    transform: scale(1.2);
 }
 .right-arrow{
     background-color: #BF3312;
     text-align: center;
-    padding: 15px 0;
-    height: 50px;
-    width: 50px;
-    margin: 0 20px;
+    padding: 1.5rem 0;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 2rem;
+    transition: transform .5s;
 }
-
+.right-arrow:hover{
+    transform: scale(1.2);
+}
 /* Section 4 bottom */
 .section-four-bottom{
-    padding: 60px 0;
+    padding: 6rem 0;
 }
 
 
 /* First and Second Combined */
 .first-and-second{
     display: flex;
-    margin-left: 7rem;
-    padding-bottom: 70px;
+    margin-left: 10rem;
+    padding-bottom: 7rem;
 }
 /* Bottom First div  */
 .bottom-first-div{
@@ -400,84 +478,104 @@ body{
 }
 .bottom-first-image{
     width: 100%;
-    height: 300px;
+    height: 30rem;
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
     background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 75.png'); 
     position: relative;
-    right: 12px;
+    right: 1.2rem;
+    transition: box-shadow .5s;
+    transition: transform .3s;
+}
+.bottom-first-image:hover{
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.8); 
+    transform: scale(0.8);
 }
 .bottom-first-heading{
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 2rem;
+    padding-top: 1rem;
 }
 .bottom-first-action{
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #f35c3b;
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 .bottom-first-description{
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #808080;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 .bottom-first-button{
-    height: 50px;
-    width: 130px;
-    font-size: 18px;
+    height: 5rem;
+    width: 13rem;
+    font-size: 1.8rem;
     border: none;
     background-color: #f35c3b;
     color: rgb(248, 246, 246);
+}
+.bottom-first-button:hover{
+    border: 0.2rem solid gray;
+    background-color:  rgb(248, 246, 246);
+    color: #f35c3b;
 }
 /* Bottom 2nd div */
 .bottom-second-div{
     display: flex;
     position: relative;
     left: 8rem;
-    /* background-color: rgb(99, 34, 34); */
 }
 .bottom-second-image{
     width: 100%;
-    height: 300px;
+    height: 30rem;
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
     background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 76.png'); 
     position: relative;
-    left: 12px;
+    left: 1.2rem;
+    transition: box-shadow .5s;
+    transition: transform .3s;
+}
+.bottom-second-image:hover{
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.8); 
+    transform: scale(0.8);
 }
 .bottom-second-content{
-    padding-left: 10px;
+    padding-left: 1rem;
 }
 .bottom-second-heading{
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 2rem;
+    padding-top: 1rem;
 }
 .bottom-second-action{
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #f35c3b;
-    padding: 15px 0;
+    padding: 1.5rem 0;
 }
 .bottom-second-description{
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #808080;
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
 }
 .bottom-second-button{
-    height: 50px;
-    width: 130px;
-    font-size: 18px;
+    height: 5rem;
+    width: 13rem;
+    font-size: 1.8rem;
     border: none;
     background-color: #f35c3b;
     color: rgb(248, 246, 246);
 }
-
+.bottom-second-button:hover{
+    border: 0.2rem solid gray;
+    background-color:  rgb(248, 246, 246);
+    color: #f35c3b;
+}
 
 /* Third and Fourth  */
 .third-and-fourth{
     display: flex;
-    margin-left: 7rem;
+    margin-left: 10rem;
 }
 /* Bottom Third Div */
 .bottom-third-div{
@@ -485,36 +583,48 @@ body{
 }
 .bottom-third-image{
     width: 100%;
-    height: 300px;
+    height: 30rem;
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
     background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 77.png'); 
     position: relative;
-    right: 12px;
+    right: 1.2rem;
+    transition: box-shadow .5s;
+    transition: transform .3s;
+}
+.bottom-third-image:hover{
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.8); 
+    transform: scale(0.8);
 }
 .bottom-third-heading{
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 2rem;
+    padding-top: 1rem;
 }
 .bottom-third-action{
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #f35c3b;
-    padding: 15px 0;
+    padding: 1.5rem 0;
 }
 .bottom-third-description{
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #808080;
-    padding-bottom: 18px;
+    padding-bottom: 1.8rem;
 }
 .bottom-third-button{
-    height: 50px;
-    width: 130px;
-    font-size: 18px;
+    height: 5rem;
+    width: 13rem;
+    font-size: 1.8rem;
     border: none;
     background-color: #f35c3b;
     color: rgb(248, 246, 246);
 }
+.bottom-third-button:hover{
+    border: 0.2rem solid gray;
+    background-color:  rgb(248, 246, 246);
+    color: #f35c3b;
+}
+
 /* Bottom fourth Div */
 .bottom-fourth-div{
     display: flex;
@@ -523,35 +633,46 @@ body{
 }
 .bottom-fourth-image{
     width: 100%;
-    height: 300px;
+    height: 30rem;
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
     background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 78.png'); 
     position: relative;
-    right: 12px;
+    right: 1.2rem;
+    transition: box-shadow .5s;
+    transition: transform .3s;
+}
+.bottom-fourth-image:hover{
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.8); 
+    transform: scale(0.8);
 }
 .bottom-fourth-heading{
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 2rem;
+    padding-top: 1rem;
 }
 .bottom-fourth-action{
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #f35c3b;
-    padding: 20px 0;
+    padding: 2rem 0;
 }
 .bottom-fourth-description{
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #808080;
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
 }
 .bottom-fourth-button{
-    height: 50px;
-    width: 130px;
-    font-size: 18px;
+    height: 5rem;
+    width: 13rem;
+    font-size: 1.8rem;
     border: none;
     background-color: #f35c3b;
     color: rgb(248, 246, 246);
+}
+.bottom-fourth-button:hover{
+    border: 0.2rem solid gray;
+    background-color:  rgb(248, 246, 246);
+    color: #f35c3b;
 }
 
 /* **************** Section 5 ************** */
@@ -559,16 +680,19 @@ body{
 .section-five{
     background-color: rgb(2, 2, 10);
     color: #ffff;
-    padding: 30px 0;
     overflow: hidden;
+    padding: 15rem 0;
 }
 .section-five-heading{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 3rem;
     text-align: center;
-    padding: 40px 0;
+    padding: 4rem 0;
+}
+.section-five-heading:hover{
+    color: rgb(104, 102, 102);
 }
 .section-five-heading >h1{
     width: 35%;
@@ -577,58 +701,68 @@ body{
     display: flex;
 }
 .section-five-first-img{
-    width: 65%;
-    height: 500px;
+    width: 98%;
+    height: 55rem;
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
     background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 17.png');
     z-index: 1;
+    transition: transform .5s;
+}
+.section-five-first-img:hover{ 
+    transform: scale(0.8);
 }
 .section-five-description{
-    position: relative;
-    right: 6rem;
-    top: 3rem;
+    font-size: 1.5rem;
     color: #808080;
-    width: 70%;
-    height: 30%;
+    position: absolute;
+    left: 60rem;
+    width: 50%;
+}
+.section-five-description:hover{
+    color: #f8f4f4;
 }
 .section-five-watermark{
     position: relative;
-    left: 30rem;
-    bottom: 23rem;
+    left: 51rem;
+    bottom: 45rem;
     z-index: 0.5;
 }
-.section-five-bottom{
-    display: flex;
-}
 .section-five-second-img{
-    width: 30%;
-    height: 350px;
+    width: 50%;
+    height: 40rem;
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
     background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 18.png'); 
-    position: absolute;
-    top: 87cm;
-    left: 13cm;
+    position: relative;
+    top: 25rem;
+    right: 10rem;
+    transition: transform .5s;
+}
+.section-five-second-img:hover{ 
+    transform: scale(0.8);
 }
 .section-five-third-img{
-    width: 19%;
-    height: 200px;
+    width: 50%;
+    height: 25rem;
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
     background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 90.png'); 
-    position: absolute;
-    top: 91cm;
-    left: 22cm;
+    position: relative;
+    top: 40rem;
+    right: 10rem;
+    transition: transform .5s;
 }
-
+.section-five-third-img:hover{ 
+    transform: scale(0.8);
+}
 /* ************* Section 6 ************* */
 
 .section-six{
-    height: 400px;
+    height: 40rem;
     background-size: cover;
     background-position: 60% center;
     background-repeat: no-repeat;
@@ -637,35 +771,43 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(14, 12, 12, 0.95);
+    background-color: #666060;
+    background-blend-mode: multiply;
+    transition: box-shadow .5s;
+}
+.section-six:hover{
+    box-shadow: 0 0 5rem rgba(120, 231, 194, 0.8);
 }
 .section-six-main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+    padding-top: 5rem;
 }
 .section-six-heading{
-    font-size: 30px;
+    font-size: 3rem;
     color: rgb(240, 232, 232);
     width: 70%;
     text-align: center;
 }
 .section-six-description{
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #b9acac;
     width: 70%;
     text-align: center;
-    padding: 30px 0;
+    padding: 3rem 0;
 }
 .section-six-button{
-    height: 60px;
-    width: 150px;
-    font-size: 18px;
+    height: 6rem;
+    width: 15rem;
+    font-size: 1.8rem;
     border: none;
     background-color: #f35c3b;
     color: rgb(248, 246, 246);
+}
+.section-six-button:hover{
+    background-color:rgb(248, 246, 246);
+    color: #f35c3b;
 }
 
 /* ************** Section 7 *************** */
@@ -674,36 +816,442 @@ body{
     display: flex;
     background-color: rgb(2, 2, 10);
     color: #ffff;
-    padding: 50px 0;
+    padding: 5rem 0;
 }
 .section-seven-logos{
-    padding: 50px 0 0 110px;
+    padding: 5rem 0 0 5rem;
 }
 .last-description{
     width: 60%;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #9e9c9c;
-    padding: 20px 0;
+    padding: 2rem 0;
 }
 .instagram{
-    padding: 0 10px;
+    padding: 0 1rem;
 }
 .list-classes{
     display: flex;
 }
 .last-lists{
     list-style-type: none;
-    padding: 50px 30px;
+    padding: 5rem 3rem;
+}
+.last-lists > li{
+    font-size: 2rem;
+    transition: transform .5s;
+}
+.last-lists > li:hover{
+    transform: scale(1.2);
 }
 .first-item{
     color: #9e9c9c;
-    padding: 5px 0; 
+    padding: 0.5rem 0; 
+    font-size: 1.5rem;
 }
 .last-footer{
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
     background-color: rgb(5, 5, 24);
+    border-top: 0.2rem solid #ffffff;
 }
-hr{
-    height: 1px;
-    color: #9c1818;
+
+
+/* Media Query */
+
+@media (max-width: 480px) {
+    html{
+        font-size: 40%;
+    }
+    .list{
+        display: none;
+    }
+    .nav-button{
+        position: relative;
+        left: 8rem;
+    }
+
+    .main-section{
+        display: block;
+    }
+    .section-two-heading{
+        margin-left: 10rem;
+    }
+    .section-two-games{
+        display: block;
+    }
+    .solider-main-div{
+        margin-left: 10rem;
+        width: 40%;
+    }
+    .solider-download{
+        margin-left: 5rem;
+    }
+    .warriors-main-div{
+        margin:3rem 0 3rem 8rem;
+        width: 40%;
+    }
+    .warriors-download{
+        margin-left: 5rem;
+    }
+    .pubjiken-main-div{
+        margin:0 0 3rem 6rem;
+        width: 40%;
+    }
+    .pubjiken-download{
+        margin-left: 5rem;
+    }
+    .garela-main-div{
+        margin: 3rem 4rem;
+        width: 40%;
+    }
+    .garela-download{
+        margin-left: 5rem;
+    }
+
+    .section-three{
+        display: block;
+        padding: 6rem 10rem;
+    }
+    .section-three-image{ 
+        width: 95%; 
+        margin:0 0 3rem 1rem;
+    }
+    .section-three-heading{
+        width: 95%;
+    }
+
+    .section-four-arrows{
+        position: relative;
+        left: 22rem;
+        top: 1.5rem;
+    }
+    .first-and-second{
+        display: block;
+    }
+    .bottom-second-div{
+        position: relative;
+        left: 0rem;
+        top: 3rem;
+        margin-right: 3rem;
+    }
+    .bottom-second-content{
+        padding-left: 4rem;
+    }
+    .third-and-fourth{
+        display: block;
+    }
+    .bottom-fourth-div{
+        position: relative;
+        left: 0rem;
+        top: 3rem;
+        margin-right: 4rem;
+    }
+    .section-five{
+        padding: 5rem 0;
+    }
+    .section-five-images{
+        display: block;
+        margin-left: 4rem;
+    }
+    .section-five-second-img,.section-five-third-img,.section-five-description,.section-five-watermark{
+        display: none;
+    }
+}
+
+/* Min-width 481px and Max-width 600px */
+
+@media (min-width: 481px) and (max-width: 600px) {
+    html{
+        font-size: 45%;
+    }
+    .list{
+        display: none;
+    }
+     .main-section{
+        display: block;
+        padding: 20rem 0;
+    }
+    .left-main{
+        padding:0.5rem 0 0 10rem;
+    }
+    .section-two-heading{
+        margin-left: 10rem;
+    }
+    .section-two-games{
+        margin-left: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .solider-main-div{
+        width: 40%;
+    }
+    .solider-war{
+        padding: 0 5rem;
+    }
+    .solider-download{
+        margin-left: 5rem;
+    }
+    .warriors-main-div{
+        width: 40%;
+        margin-left: 5rem;
+    }
+    .warriors-war{
+        padding: 0 5rem;
+    }
+    .warriors-download{
+        margin-left: 5rem;
+    }
+    .pubjiken-main-div{
+        width: 40%;
+        position: relative;
+        left: 6rem;
+        top: 3rem;
+    }
+    .pubjiken-war{
+        padding: 0 5rem;
+    }
+    .pubjiken-download{
+        margin-left: 5rem;
+    }
+    .garela-main-div{
+        width: 40%;
+        position: relative;
+        left: 13rem;
+        top: 3rem;
+    }
+    .section-three{
+        display: block;
+        padding: 6rem 0;
+    }
+    .section-three-image{  
+        width: 75%;
+    }
+    .section-three-right{
+        margin:5rem 0 0 11rem;
+        text-align: justify;
+        padding: 0 2rem;
+    }
+    .section-four-arrows{
+        position: relative;
+        left: 30rem;
+        top: 1.5rem;
+    }
+    .first-and-second{
+        display: block;
+    }
+    .bottom-second-div{
+        position: relative;
+        left: 0rem;
+        top: 3rem;
+        margin-right: 3rem;
+    }
+    .bottom-second-content{
+        padding-left: 4rem;
+    }
+    .third-and-fourth{
+        display: block;
+    }
+    .bottom-fourth-div{
+        position: relative;
+        left: 0rem;
+        top: 3rem;
+        margin-right: 4rem;
+    }
+    .section-five{
+        padding: 5rem 0;
+    }
+    .section-five-first-img,.section-five-watermark{
+        display: none;
+    }
+    .section-five-description{
+        font-size: 1.5rem;
+        color: #808080;
+        position: absolute;
+        left: 40rem;
+        width: 45%;
+    }
+    .section-five-second-img{
+        width: 70%;
+        position: relative;
+        top: 1rem;
+        right: 2rem;
+    }
+    .section-five-third-img{
+        width: 50%; 
+        position: relative;
+        top: 16rem;
+        right: 10rem;
+    }
+}
+
+/* min-width 601px and max-width 768px */
+
+@media (min-width:601px) and (max-width:768px) {
+    html{
+        font-size: 50%;
+    }
+    .logo,.nav-button{
+        display: none;
+    }
+    .list{
+        margin-left: 18rem;
+    }
+    .left-main{
+        padding: 0 0 0 7rem;
+    }
+    .left-main-heading{
+        width: 55%;
+    }
+    .right-main{
+        padding: 0 2rem;
+        margin-right: 3rem;
+    }
+    .section-two-games{
+        margin-left: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .solider-main-div{
+        width: 40%;
+    }
+    .solider-war{
+        padding: 0 5rem;
+    }
+    .solider-download{
+        margin-left: 5rem;
+    }
+    .warriors-main-div{
+        width: 40%;
+        margin-left: 5rem;
+    }
+    .warriors-war{
+        padding: 0 5rem;
+    }
+    .warriors-download{
+        margin-left: 5rem;
+    }
+    .pubjiken-main-div{
+        width: 40%;
+        position: relative;
+        left: 6rem;
+        top: 3rem;
+    }
+    .pubjiken-war{
+        padding: 0 5rem;
+    }
+    .pubjiken-download{
+        margin-left: 5rem;
+    }
+    .garela-main-div{
+        width: 40%;
+        position: relative;
+        left: 13rem;
+        top: 3rem;
+    }
+    .first-and-second{
+        display: block;
+        margin-left: 2rem;
+    }
+    .bottom-first-content{
+        margin-right: 8rem;
+    }
+    .bottom-second-div{
+        position: relative;
+        left: 0rem;
+        top: 3rem;
+        margin-right: 8rem;
+    }
+    .bottom-second-content{
+        margin-left: 4rem;
+    }
+    .third-and-fourth{
+        display: block;
+        margin-left: 1rem;
+    }
+    .bottom-third-content{
+        margin-right: 8.5rem;
+    }
+    .bottom-fourth-div{
+        position: relative;
+        left: 0rem;
+        top: 3rem;
+        margin-right: 4rem;
+    }
+    .bottom-fourth-content{
+        margin-right: 3rem;
+    }
+    .section-five{
+        padding: 5rem 0;
+    }
+    .section-five-first-img,.section-five-watermark{
+        display: none;
+    }
+    .section-five-description{
+        font-size: 1.5rem;
+        color: #808080;
+        position: absolute;
+        left: 40rem;
+        width: 45%;
+    }
+    .section-five-second-img{
+        width: 70%;
+        position: relative;
+        top: 1rem;
+        right: 2rem;
+    }
+    .section-five-third-img{
+        width: 50%; 
+        position: relative;
+        top: 16rem;
+        right: 10rem;
+    }
+}
+
+/* min-width 769px and max-width 1024px */
+
+@media (min-width:769px) and (max-width: 1024px) {
+    html{
+        font-size: 55%;
+    }
+    .logo{
+        margin: 0 5rem;
+    }
+    .nav-button{
+        position: relative;
+        left: 3rem;
+    }
+    .section-three-image{  
+        margin-left: 5rem;
+    }
+    .first-and-second{
+        margin-left: 4rem;
+    }
+    .third-and-fourth{
+        margin-left: 4rem;
+    }
+    .section-five{
+        padding: 5rem 0;
+    }
+    .section-five-first-img{
+        width: 60%;
+    }
+    .section-five-description{
+        position: absolute;
+        left: 55rem;
+    }
+    .section-five-watermark{
+        display: none;
+    }
+    .section-five-second-img{
+        width: 30%;
+        position: relative;
+        top: 10rem;
+        right: 8rem;
+    }
+    .section-five-third-img{
+        width: 20%;
+        position: relative;
+        top: 18rem;
+        right: 7rem;
+    }
 }
