@@ -1,5 +1,2 @@
-# Replicate the Following Output
-
-`Assests are Provided!`
-
-![Project 3](./Gaming%20Landing%20Page.png)
+# Project Gaming Landing Page
+[Click Here](https://devresponsivegamesite.netlify.app/)
