@@ -8,7 +8,7 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 /* ********* Navbar Container *********** */
 .nav-container{
@@ -18,19 +18,20 @@ body{
     background-repeat: no-repeat;
     background-color: #808080;
     background-blend-mode: multiply;
-    /* filter: brightness(60%); */
-    /* background: linear-gradient(rgba(0,0,0,0.30), rgba(0, 0, 0, 0.30)); */
 }
 /* Navbar */
 .navbar{
  display: flex;
  gap: 28rem;
  padding: 2rem 0;
- border-bottom: 0.1rem solid  #e4e0e0;
- 
+ border-bottom: 0.1rem solid #e4e0e0;
 }
 .nav-logo{
     padding: 0 14rem;
+    transition: transform 0.5s;
+}
+.nav-logo:hover{
+    transform: scale(1.2);
 }
 .list{
     display: flex;
@@ -40,6 +41,11 @@ body{
     font-size: 2rem;
     padding: 2rem;
     color: #ffffff;
+    transition: transform .5s;
+}
+.list-items:hover{
+    color: #5159f3;
+    transform: scale(1.2);
 }
 
 /* Nav Container Heading */
@@ -68,6 +74,10 @@ body{
     background-color: #5159f3;
     margin: 2rem 0;
 }
+.nav-main-button:hover{
+    color: #5159f3;
+    background-color: #e4e0e0;
+}
 
 /* ********** Logo Section ************ */
 .logo-section{
@@ -77,9 +87,13 @@ body{
    margin: 0 3rem;
    position: relative;
    top: 7rem;
+   transition: transform 1s;
 }
 .logo{
     padding: 5rem 5rem;
+}
+.logo:hover{
+    transform: scale(1.5);
 }
 
 /* **********Hero Section ********* */
@@ -106,6 +120,10 @@ body{
     position: relative;
     top: 30rem;
 }
+.description:hover{
+    background-color: #cbf0f0;
+    border: 0.2rem solid rgb(56, 52, 52);
+}
 .description-name{
     font-size: 2rem;
 }
@@ -126,6 +144,13 @@ body{
     position: relative;
     left: 13rem;
     bottom: 6rem;
+    transition: transform .5s;
+}
+.description-button:hover{
+   transform: scale(1.2); 
+   background-color: #fff;
+   color: #5159f3;
+   border: 0.2rem solid #808080;
 }
 
 /* Top division */
@@ -273,6 +298,11 @@ body{
     color: #e4e0e0;
     background-color: #5159f3;
 }
+.feature-button-1:hover{
+    color: #5159f3;
+    background-color: #fff8f8;
+    border: 0.2rem solid #808080;
+}
 
 .feature-description-1{
     position: relative;
@@ -319,6 +349,11 @@ body{
     border: none;
     color: #e4e0e0;
     background-color: #5159f3;
+}
+.feature-button-2:hover{
+    color: #5159f3;
+    background-color: #fff8f8;
+    border: 0.2rem solid #808080;
 }
 .feature-description-2{
     position: relative;
@@ -397,6 +432,11 @@ body{
     color: #4044b6;
     background-color: #f7f1f1;
 }
+.subscription-button:hover{
+    color:  #f7f1f1;
+    background-color: #6368f1;
+    border: .2px solid rgb(27, 26, 26);
+}
 
 /* ************* Footer Section ******************** */
 .footer{
@@ -409,9 +449,19 @@ body{
 }
 .social-media{
     padding: 2rem 0;
+    transition: transform .5s;
 }
 img[alt="twitter"]{
     padding: 0 1rem;
+}
+img[alt="facebook"]:hover{
+    transform: scale(1.4);
+}
+img[alt="twitter"]:hover{
+    transform: scale(1.4);
+}
+img[alt="instagram"]:hover{
+    transform: scale(1.4);
 }
 .footer-paragraph{
     font-size: 1.5rem;
@@ -426,4 +476,355 @@ img[alt="twitter"]{
 .items{
     font-size: 1.5rem; 
     padding: 1rem 0;
+    transition: transform .5s;
+}
+.items:hover{
+    transform: scale(1.5);
+}
+
+
+/* ********* Media Query ************* */
+
+@media screen and (max-width:480px) {
+    html{
+        font-size: 40.5%;
+    }
+    .navbar{
+        width: 50%;
+    }
+    .list{
+        display: none;
+    }
+    .nav-main-heading{
+        width: 90%;
+    }
+    .nav-main-description{
+        width: 85%;
+    }
+    .hero-section-heading{
+        width: 40%;
+    }
+    .top-hero{
+        display: block;
+        margin-left: 20rem;
+    }
+    .top-image-1{
+        margin-bottom: 8rem;
+    }
+    .top-image-2{
+        margin-bottom: 8rem;
+    }
+    .top-image-3{
+        margin-bottom: 8rem;
+    }
+    .middle-hero{
+        display: block;
+        margin: 0 0 0 20rem;
+    }
+    .middle-image-1{
+        margin-bottom: 15rem;
+    }
+    .middle-image-2{
+        margin-bottom: 15rem;
+    }
+    .middle-image-3{
+        margin-bottom: 15rem;
+    }
+    .bottom-hero{
+        display: block;
+        margin: 0 0 0 20rem;
+    }
+    .bottom-image-1{
+        margin-bottom: 8rem;
+    }
+    .bottom-image-2{
+        margin-bottom: 8rem;
+    }
+    .bottom-image-3{
+        margin-bottom: 8rem;
+    }
+    .features{
+        display: flex;
+        margin-left: 7rem;
+    }
+    .feature-description-1{
+        width: 55%;
+        position: relative;
+        left: 2rem;
+    }
+    .feature-description-2{
+        width: 90%;
+        position: relative;
+        top: 20rem;
+        left: 5rem;
+    }
+    .feature-vector-1,.feature-vector-2{
+        display: none;
+    }
+    .feature-image-1, .feature-image-2{
+        display: none;
+    }
+    .subscription-panel{
+        margin-bottom: 20rem;
+    }
+    .subscription-mail-section{
+        width: 95%;
+    }
+}
+
+/* Min width 481px and Max width 600px */
+
+@media (min-width:481px) and (max-width:600px) {
+    html{
+        font-size: 50%;
+    }
+    .navbar{
+        width: 80%;
+    }
+    .nav-logo{
+        display: none;
+    }
+    .list{
+        margin-left: 15rem;
+    }
+    .nav-main-heading{
+        width: 90%;
+    }
+    .nav-main-description{
+        width: 90%;
+    }
+    .logo-section{
+        overflow-x: hidden;
+        width: 85%;
+        margin-left: 6rem;
+    }
+    .hero-section-heading{
+        width: 45%;
+    }
+    .top-hero{
+        display: block;
+        margin-left: 20rem;
+    }
+    .top-image-1{
+        margin-bottom: 8rem;
+    }
+    .top-image-2{
+        margin-bottom: 8rem;
+    }
+    .top-image-3{
+        margin-bottom: 8rem;
+    }
+    .middle-hero{
+        display: block;
+        margin: 0 0 0 20rem;
+    }
+    .middle-image-1{
+        margin-bottom: 15rem;
+    }
+    .middle-image-2{
+        margin-bottom: 15rem;
+    }
+    .middle-image-3{
+        margin-bottom: 15rem;
+    }
+    .bottom-hero{
+        display: block;
+        margin: 0 0 0 20rem;
+    }
+    .bottom-image-1{
+        margin-bottom: 8rem;
+    }
+    .bottom-image-2{
+        margin-bottom: 8rem;
+    }
+    .bottom-image-3{
+        margin-bottom: 8rem;
+    }
+    .features{
+        display: flex;
+        margin-left: 7rem;
+    }
+    .feature-description-1{
+        width: 55%;
+        position: relative;
+        left: 2rem;
+    }
+    .feature-vector-1,.feature-vector-2{
+        display: none;
+    }
+    .feature-image-1, .feature-image-2{
+        display: none;
+    }
+    .feature-description-2{
+        width: 90%;
+        position: relative;
+        top: 20rem;
+        left: 5rem;
+    }
+    .subscription-panel{
+        margin-bottom: 20rem;
+    }
+    .subscription-mail-section{
+        width: 95%;
+    }
+}
+
+/* Min width 601px and max width 768px */
+
+@media (min-width:601px) and (max-width:768px) {
+    html{
+        font-size: 55%;
+    }
+    .navbar{
+        display: flex;
+        gap: 5rem;
+    }
+    .nav-logo{
+        padding: 0 4rem;
+    }
+    .nav-main-heading, .nav-main-description{
+        width: 90%;
+    }
+    .hero-section-heading{
+        width: 70%;
+    }
+    .top-hero{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top-image-2{
+        position: relative;
+        top: 2rem;
+    }
+    .middle-hero{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .middle-image-1{
+        position: relative;
+        top: 8rem;
+    }
+    .middle-image-3{
+        position: relative;
+        top: 14rem;
+    }
+    .bottom-hero{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bottom-image-1{
+        position: relative;
+        top: 12rem;
+    }
+    .bottom-image-3{
+        position: relative;
+        top: 18rem;
+    }
+    .features{
+        display: flex;
+        margin-left: 7rem;
+    }
+    .feature-description-1{
+        width: 65%;
+        position: relative;
+        left: 2rem;
+    }
+    .feature-vector-1,.feature-vector-2{
+        display: none;
+    }
+    .feature-image-1, .feature-image-2{
+        display: none;
+    }
+    .feature-description-2{
+        position: relative;
+        top: 20rem;
+        left: 5rem;
+    }
+    .subscription-panel{
+        width: 90%;
+        margin: 5rem 5rem; 
+    }
+}
+
+/* Min width 769px and max-width 1024px */
+
+@media (min-width:769px) and (max-width:1024px) {
+    .navbar{
+        gap: 5rem;
+    }
+    .nav-logo{
+        padding: 0 4rem;
+    }
+    .logo-section{
+        width: 96%;
+     }
+     .top-hero{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top-image-2{
+        position: relative;
+        top: 2rem;
+    }
+    .middle-hero{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .middle-image-1{
+        position: relative;
+        top: 8rem;
+    }
+    .middle-image-3{
+        position: relative;
+        top: 14rem;
+    }
+    .bottom-hero{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bottom-image-1{
+        position: relative;
+        top: 12rem;
+    }
+    .bottom-image-3{
+        position: relative;
+        top: 18rem;
+    }
+    .feature-section-1{
+        display: block;
+    }
+    .feature-section-2{
+        display: block;
+    }
+    .feature-description-1{
+        position: relative;
+        right: 1rem;
+        margin-left: 5rem;
+    }
+    .feature-image-1{
+        height: 40rem;
+        width: 40rem;
+        position: relative;
+        left: 11rem;
+        bottom: 19rem;
+    }
+    .feature-vector-1{
+        height: 25rem;
+        width: 25rem;
+    }
+    .feature-description-2{
+        margin-left: 21rem;
+    }
+    .feature-image-2{
+        height: 40rem;
+        width: 40rem;
+        position: relative;
+        left: 50rem;
+        bottom: 19rem;
+    }
+    .feature-vector-2{
+        height: 25rem;
+        width: 25rem;
+        margin-left: 16rem;
+    }
 }
