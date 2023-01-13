@@ -1,2 +1,2 @@
-# Project Credit Card Landing Page
+# Project Hosting Landing Page
 [Click Here](https://devresponsivehostingpage.netlify.app/)
