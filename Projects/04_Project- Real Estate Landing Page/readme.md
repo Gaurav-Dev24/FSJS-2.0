@@ -1,5 +1,2 @@
-# Replicate the Following Output
-
-`Assests are Provided!`
-
-![Project 4](./Real%20Estate%20-%20Desktop.png)
+# Project Real Estate Landing Page
+[Click Here](https://devresponsiverealestate.netlify.app/)
