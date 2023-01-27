@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .grid-container{
+            /* display: inline-grid;  */
+            display: grid; /* sets the container display as grid*/
+            /* column-gap: 5rem;  */
+            /* row-gap: 5rem;  */
+            gap: 1rem; 
+        }
+        .grid-items{
+            background-color: rgb(88, 80, 80);
+            height: 5rem;
+            width: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Grid elements -->
+    <div class="grid-container">
+        <div class="grid-items">One</div>
+        <div class="grid-items">Two</div>
+        <div class="grid-items">Three</div>
+        <div class="grid-items">Four</div>
+        <div class="grid-items">Five</div>
+        <div class="grid-items">Six</div>
+    </div>
+</body>
+</html>
