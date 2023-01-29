@@ -1,0 +1,21 @@
+<!-- 13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 13</title>
+  </head>
+  <body>
+    <script>
+      let age = Number(prompt("Enter your age : "));
+      if (age >= 18) {
+        alert("You are old enough to drive");
+      } else {
+        let yearLeft = 18 - age;
+        alert(`You need "${yearLeft}" more years to turn 18`);
+      }
+    </script>
+  </body>
+</html>

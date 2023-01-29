@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #4d424d; */
+  }
+  
+  .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .all {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #4d4d4d;
+  
+    /* border: 1px solid red; */
+  }
