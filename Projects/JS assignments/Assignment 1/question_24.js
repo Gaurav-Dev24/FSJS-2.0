@@ -9,6 +9,3 @@ for (let i = 0; i<=100; i++){
 }
 console.log("Even array is :",even);
 console.log("Odd array is :",odd);
-
-
-
