@@ -25,4 +25,4 @@ let getBMI = (weight,height) => {
         console.log("Invalid input");
     }
 }
-getBMI(50,170)
+getBMI(50,170);
