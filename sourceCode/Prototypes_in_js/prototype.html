@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prototypes in Javascript</title>
+</head>
+<body>
+  <h1>Prototypes in Javascript</h1>
+  <script>
+    const myObject = {
+    city: "Ranchi",
+    greet() {
+      console.log(`Greetings from ${this.city}`);
+    },
+  };
+  
+  myObject.greet(); 
+  //o/p -- Greetings from Ranchi
+  myObject.tostring();
+  
+  //o/p-- "[object Object]"
+  </script>
+</body>
+</html>
