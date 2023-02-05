@@ -32,3 +32,6 @@
     
 11. ### Article on Javascript Operators and Expressions [Click Here](https://medium.com/@subhamkr1995dob/article-on-javascript-operators-and-expressions-c3d838d447ed?source=social.linkedin)
     * [source code](https://github.com/Gaurav-Dev24/FSJS-2.0/commit/eb4cadec96ab7270f64c70450bd897d67cc77ddc)
+
+12. ### Article on Javascript Prototypes and its chaining [Click Here](https://medium.com/@subhamkr1995dob/article-on-prototype-and-prototype-chaining-in-javascript-d4a60a91c8db)
+    * [source code](https://github.com/Gaurav-Dev24/FSJS-2.0/tree/main/sourceCode/Prototypes_in_js)
