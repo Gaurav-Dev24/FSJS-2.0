@@ -7,13 +7,11 @@ elementOne.innerText = "Hire Me";
 ul.appendChild(elementOne);
 ```
 
-### Task 2- Add list item "Hire Me" to unordered list of the navbar.
+### Task 2- Adding a placeholder in the search button in navbar
 ![Second task](./firstAssignmentImage/task2Output.png)
 ```Javascript
-let ul = document.querySelector("ul");
-let elementOne = document.createElement("li");
-elementOne.innerText = "Hire Me";
-ul.appendChild(elementOne);
+let input = document.querySelector("input");
+document.querySelector("input").placeholder = "Search My Project";
 ```
 ### Task 3 - Replacing "Contact" with list item "Projects" to unordered list of the navbar.
 ![Third task](./firstAssignmentImage/task3Output.png)
