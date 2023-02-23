@@ -86,5 +86,34 @@
         </li>
       </ul>
     </footer>
+    <script>
+      // Task 1- Add list item "Hire Me" to unordered list of the navbar.
+      // let ul = document.querySelector("ul");
+      // let elementOne = document.createElement("li");
+      // elementOne.innerText = "Hire Me";
+      // ul.appendChild(elementOne);
+      
+      // Task 2- Adding a placeholder in the search button in navbar
+      //  let input = document.querySelector("input");
+      //  document.querySelector("input").placeholder = "Search My Project";
+
+      //  Task 3 - Replacing "Contact" with list item "Projects" to unordered list of the navbar.
+      let ul = document.querySelector("ul");
+      ul.removeChild(ul.children[2]); // remove the existing child i.e contact and adding projects as a new child
+      let elementTwo = document.createElement("li");
+      elementTwo.innerText = "Projects";
+      ul.appendChild(elementTwo);
+
+      // Task 4 - Adding image on the place of avatar.
+      // let chatImg = document.querySelector("img");
+      // chatImg.src = "dev.jpg"
+      
+      // Task 5 - Adding a new button along with chat button
+      let chatDiv = document.querySelector(".hero-right-section-btns");
+      let newBtn = document.createElement("button");
+      newBtn.innerText = "Support Me";
+      chatDiv.appendChild(newBtn);
+
+    </script>
   </body>
 </html>
