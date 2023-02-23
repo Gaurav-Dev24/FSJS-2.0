@@ -8,7 +8,7 @@ ul.appendChild(elementOne);
 ```
 
 ### Task 2- Add list item "Hire Me" to unordered list of the navbar.
-![First task](./firstAssignmentImage/task2Output.png)
+![Second task](./firstAssignmentImage/task2Output.png)
 ```Javascript
 let ul = document.querySelector("ul");
 let elementOne = document.createElement("li");
@@ -16,7 +16,7 @@ elementOne.innerText = "Hire Me";
 ul.appendChild(elementOne);
 ```
 ### Task 3 - Replacing "Contact" with list item "Projects" to unordered list of the navbar.
-![First task](./firstAssignmentImage/task3Output.png)
+![Third task](./firstAssignmentImage/task3Output.png)
 ```Javascript
 let ul = document.querySelector("ul");
       ul.removeChild(ul.children[2]); // remove the existing child i.e contact and adding projects as a new child
@@ -25,13 +25,13 @@ let ul = document.querySelector("ul");
       ul.appendChild(elementTwo);
 ```
 ### Task 4 - Adding image on the place of avatar.
-![First task](./firstAssignmentImage/task4Output.png)
+![Fourth task](./firstAssignmentImage/task4Output.png)
 ```Javascript
 let chatImg = document.querySelector("img");
 chatImg.src = "dev.jpg"
 ```
 ### Task 5 - Adding a new button i.e "Support Me" along with chat button
-![First task](./firstAssignmentImage/task5Output.png)
+![Fifth task](./firstAssignmentImage/task5Output.png)
 ```Javascript
 let chatDiv = document.querySelector(".hero-right-section-btns");
 let newBtn = document.createElement("button");
