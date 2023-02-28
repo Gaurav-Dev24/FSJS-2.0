@@ -18,13 +18,13 @@ accordian.forEach((element) => {
 
 // Task 2 - Add new skill accordian below Hobbies
 
-let mainDiv = document.querySelector(".accordian-wrapper");
-let skillDiv = document.createElement("div"); // creating a div
-skillDiv.className = "accordian"; // giving the class name .accordian
-let skillHeading = document.createElement("h3"); // creating a h3
-skillHeading.innerText = "Skills"; // giving the textContent to h3
-skillDiv.appendChild(skillHeading) // adding the heading to the div element
-let skillPara = document.createElement("p"); // creating a paragraph
-skillPara.innerText = "I posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github."; // giving the textContent to paragraph
-skillDiv.appendChild(skillPara); // adding the heading to the div element
-mainDiv.appendChild(skillDiv) // adding the whole created to maindiv
+// let mainDiv = document.querySelector(".accordian-wrapper");
+// let skillDiv = document.createElement("div"); // creating a div
+// skillDiv.className = "accordian"; // giving the class name .accordian
+// let skillHeading = document.createElement("h3"); // creating a h3
+// skillHeading.innerText = "Skills"; // giving the textContent to h3
+// skillDiv.appendChild(skillHeading) // adding the heading to the div element
+// let skillPara = document.createElement("p"); // creating a paragraph
+// skillPara.innerText = "I posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github."; // giving the textContent to paragraph
+// skillDiv.appendChild(skillPara); // adding the heading to the div element
+// mainDiv.appendChild(skillDiv) // adding the whole created to maindiv
