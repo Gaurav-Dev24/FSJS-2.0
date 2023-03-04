@@ -11,7 +11,7 @@ html{
     font-size: 62.5%;
 }
 .section-one{
-    background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/futuristic-bg.png');
+    background-image: url('./Assets/Photos/futuristic-bg.png');
     color: rgb(240, 234, 234);
     overflow: hidden;
 }
@@ -164,7 +164,7 @@ html{
 }
 /* Solider div */
 .solider-main-div{
-    background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/image 2.png');
+    background-image: url('./Assets/Photos/image 2.png');
     width: 20%;
     height: 30rem;
     background-position: 75% 30%;
@@ -212,7 +212,7 @@ html{
 }
 /* Warrior div */
 .warriors-main-div{
-    background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/image 4.png');
+    background-image: url('./Assets/Photos/image 4.png');
     width: 20%;
     height: 30rem;
     background-position: 55% 90%;
@@ -260,7 +260,7 @@ html{
 }
 /* Pubjiken */
 .pubjiken-main-div{
-    background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/image 3.png');
+    background-image: url('./Assets/Photos/image 3.png');
     width: 20%;
     height: 30rem;
     background-position: 45% 90%;
@@ -308,7 +308,7 @@ html{
 }
 /* Garela */
 .garela-main-div{
-    background-image: url('./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/Rectangle 56.png');
+    background-image: url('./Assets/Photos/Rectangle 56.png');
     width: 20%;
     height: 30rem;
     background-position: 45% 90%;
@@ -366,7 +366,7 @@ html{
     background-size: cover;
     background-position: 45% 90%;
     background-repeat: no-repeat;
-    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 57.png');  
+    background-image: url('./Assets/Photos/Rectangle 57.png');  
     transition: transform .5s;
     margin-left: 12rem;
 }
@@ -482,7 +482,7 @@ html{
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
-    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 75.png'); 
+    background-image: url('./Assets/Photos/Rectangle 75.png'); 
     position: relative;
     right: 1.2rem;
     transition: box-shadow .5s;
@@ -531,7 +531,7 @@ html{
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
-    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 76.png'); 
+    background-image: url('./Assets/Photos/Rectangle 76.png'); 
     position: relative;
     left: 1.2rem;
     transition: box-shadow .5s;
@@ -587,7 +587,7 @@ html{
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
-    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 77.png'); 
+    background-image: url('./Assets/Photos/Rectangle 77.png'); 
     position: relative;
     right: 1.2rem;
     transition: box-shadow .5s;
@@ -637,7 +637,7 @@ html{
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
-    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 78.png'); 
+    background-image: url('./Assets/Photos/Rectangle 78.png'); 
     position: relative;
     right: 1.2rem;
     transition: box-shadow .5s;
@@ -706,7 +706,7 @@ html{
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
-    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 17.png');
+    background-image: url('./Assets/Photos/Rectangle 17.png');
     z-index: 1;
     transition: transform .5s;
 }
@@ -735,7 +735,7 @@ html{
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
-    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 18.png'); 
+    background-image: url('./Assets/Photos/Rectangle 18.png'); 
     position: relative;
     top: 25rem;
     right: 10rem;
@@ -750,7 +750,7 @@ html{
     background-size: contain;
     background-position: 40% center;
     background-repeat: no-repeat;
-    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 90.png'); 
+    background-image: url('./Assets/Photos/Rectangle 90.png'); 
     position: relative;
     top: 40rem;
     right: 10rem;
@@ -766,7 +766,7 @@ html{
     background-size: cover;
     background-position: 60% center;
     background-repeat: no-repeat;
-    background-image: url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 606.png');
+    background-image: url('./Assets/Photos/Rectangle 606.png');
     display: flex;
     flex-direction: column;
     align-items: center;
