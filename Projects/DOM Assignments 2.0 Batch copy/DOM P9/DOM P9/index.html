@@ -32,12 +32,37 @@
             <p class="current-price">$149.99</p>
             <p class="old-price">$169.99</p>
           </div>
-          <button class="add-to-cart">
+          <button class="add-to-cart" onmouseover="changeColor()">
             <img src="/images/icon-cart.svg" />Add to Cart
           </button>
         </div>
       </div>
     </div>
     <span class="title"></span>
+
+    <script>
+      // Task 1.1 - Changing the font style and color of the Heading
+      let heading = document.querySelector("h1");
+      heading.style.fontFamily = "Ubuntu";
+      heading.style.color = "#FF0000";
+
+      // Task 1.2 - Adding image to the "add-cart" buttom
+      let cartImg = document.querySelectorAll("img");
+      let arr = [...cartImg];
+      arr[1].src = "images/icon-cart.svg"
+      
+      // Task 2.1 - Changing the padding and border of the hero section
+
+      document.querySelector(".container").style.border = "10px solid rgb(248, 243, 243)";
+      document.querySelector(".container").style.paddingRight = "0px";
+      document.querySelector(".container").style.paddingLeft = "0px";
+      
+      // Task 2.2 - Changing the background color to red of button on hover
+      let btn = document.querySelector(".add-to-cart");
+      function changeColor (){
+        btn.style.backgroundColor = "#FF0000";
+      }
+    </script>
+
   </body>
 </html>
