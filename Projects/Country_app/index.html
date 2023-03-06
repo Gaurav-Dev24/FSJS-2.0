@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <title>Countries Information</title>
+</head>
+<body>
+    <main class="container">
+        <section class="top-section">
+            <h1>Country</h1>     
+            <!-- Right Div containing flag and country's name -->
+            <div class="right-main">
+                
+                <form class="searchData">
+                    <input id="right-inputBox" type="text" placeholder="Enter the country name" />
+                    <button id="searchBtn">Search</button>
+                  </form>
+            </div>
+        </section>
+    
+        <section class="bottom-section"> 
+            <!-- Left Div containing country's details -->
+            <div class="left-main">
+                <div>
+                    <img src="" alt="flag" id="flag-image">
+                </div>
+                <div>
+                    <p>Capital :-<span id="capital">___</span></p>
+                </div>
+                <div>
+                    <p>Continent :-<span id="continent">___</span></p>
+                </div>
+                <div>
+                    <p>Currency :-<span id="currency">___</span></p>
+                </div>
+                <div>
+                    <p>Population :-<span id="population">___</span></p>
+                </div>
+                <div>
+                    <p>Languages :-<span id="language">___</span></p> 
+                </div>
+                <div>
+                    <p>Area ( km<sup>2</sup>) :-<span id="area">___</span></p>
+                </div>
+                <div>
+                    <p>Neighbours :-<span id="neighbour">___</span></p>
+                </div>
+            </div>
+        </section>
+    </main>   
+    <script src="./script.js"></script>  
+</body>
+</html>

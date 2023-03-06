@@ -26,7 +26,6 @@ const getData = async (event) => {
   const city = inputBox.value;
 
   // Fetch Details
-  //await is used because the system has to wait for some time to fetch data
   const fetchData = await fetch(
     `http://api.weatherapi.com/v1/current.json?key=17f9876b329c464abd4110138231102&q=${city}`
   );

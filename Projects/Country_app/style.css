@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url('./assets/bg-img.jpg');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+}
+.top-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45rem;
+    width: 50rem;
+    }
+#flag-image{
+    height: 20rem;
+    width: 30rem;
+    padding: 2rem 0;
+}
+h1 {
+    font-size: 5.5rem;
+    color: #36d42b;
+}
+#right-inputBox{
+    height: 4rem;
+    width: 20rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 2rem;
+    padding: 0 2rem;
+    border: 0.2rem solid #1C8D73;
+}
+button{
+    height: 3.5rem;
+    width: 10rem;
+    background-color: #3944F7;
+    font-size: 1.5rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+button:hover{
+    background-color:  #ffffff;
+    color: #3944F7;
+}
+.left-main{
+    background-image: url('./assets/card-bg2.jpg');
+    background-size: cover;
+    border-radius: 2rem;
+    margin: 5rem;
+    width: 50rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+p{
+    color: #110b0b;
+    font-size: 2rem;
+    padding: 1rem;
+}
+span{
+    margin: 0 2rem;
+    color: #340691;
+}
+.details-inputBox{
+    height: 3rem;
+}
